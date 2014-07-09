@@ -1,0 +1,12 @@
+# Site settings
+title: dsmAgile
+email: tgifford@gmail.com
+description: "Discuss. Discover. Learn."
+baseurl: ""
+url: "http://dsmagile.agileiowa.org"
+twitter_username: agileiowa
+github_username:  agileiowa
+
+# Build settings
+markdown: kramdown
+permalink: pretty
