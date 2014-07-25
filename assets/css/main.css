@@ -613,6 +613,15 @@ a:after {
 	background: #f2f2f2;
 }
 
+.img-sm {
+  height:60px;
+  width:60px;
+}
+
+.img-md {
+  height:120px;
+  width:120px;
+}
 
 /* ==========================================================================
    MEDIA QUERIES
