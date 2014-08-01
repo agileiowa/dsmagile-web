@@ -640,7 +640,7 @@ a:after {
 
 @media screen and (max-width:769px) {
 	#headerwrap h1 {
-		font-size: 80px;
+		font-size: 60px;
 	}
 	#headerwrap p {
 		font-size: 30px;
