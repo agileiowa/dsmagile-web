@@ -623,6 +623,12 @@ a:after {
   width:120px;
 }
 
+#headerwrap .location {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
@@ -646,5 +652,8 @@ a:after {
 		font-size: 30px;
 		line-height: 38px;
 	}
+  #headerwrap .location {
+    font-size: 20px;
+  }
 }
 
