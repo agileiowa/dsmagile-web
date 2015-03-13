@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,6 +98,25 @@ ga('send', 'pageview');
   </div>
 
 <!-- ==== SPEAKERS ==== -->
+  <div class="container" id="speakers" name="speakers">
+    <br>
+    <div class="row white centered">
+      <h1 class="centered">SPEAKERS</h1>
+      <hr>
+      <br>
+      <br>
+{% for speaker_hash in site.data.speakers %}
+{% assign speaker = speaker_hash[1] %}
+        <div class="col-md-6 centered" id="speaker-name">
+            <img class="img img-circle img-md" src="assets/img/speakers/{{speaker.image}}" alt="">
+            <br>
+            <h4><b>{{speaker.name}}</b></h4>
+            <a href="https://twitter.com/{{speaker.twitter}}" class="icon icon-twitter"></a>
+            <p>{{speaker.bio}}</p>
+        </div>
+{% endfor %}
+    </div>
+  </div>
 <!--
   <div class="container" id="speakers" name="speakers">
     <br>
