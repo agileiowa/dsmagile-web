@@ -12,6 +12,8 @@
 
 <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-social.css" rel="stylesheet">
+<link href="assets/css/font-awesome.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="assets/css/main.css" rel="stylesheet">
@@ -112,9 +114,18 @@ ga('send', 'pageview');
             <br>
             <h4><b>{{speaker.name}}</b></h4>
             {% if speaker.twitter %}
-            <a href="https://twitter.com/{{speaker.twitter}}" class="icon icon-twitter"></a>
+            <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
+              <i class="fa fa-twitter"></i>
+            </a>
             {% endif %}
-            <div>{{speaker.bio}}</div>
+
+            {% if speaker.linkedin %}
+            <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            {% endif %}
+
+            <p>{{speaker.bio}}</p>
         </div>
 {% endfor %}
     </div>
