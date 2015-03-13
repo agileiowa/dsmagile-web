@@ -111,8 +111,10 @@ ga('send', 'pageview');
             <img class="img img-circle img-md" src="assets/img/speakers/{{speaker.image}}" alt="">
             <br>
             <h4><b>{{speaker.name}}</b></h4>
+            {% if speaker.twitter %}
             <a href="https://twitter.com/{{speaker.twitter}}" class="icon icon-twitter"></a>
-            <p>{{speaker.bio}}</p>
+            {% endif %}
+            <div>{{speaker.bio}}</div>
         </div>
 {% endfor %}
     </div>
@@ -189,7 +191,7 @@ ga('send', 'pageview');
 
 
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/js/retina.js"></script>
+  <!--<script type="text/javascript" src="assets/js/retina.js"></script>-->
   <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
   <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
   <script type="text/javascript" src="assets/js/jquery-func.js"></script>
