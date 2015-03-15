@@ -7,13 +7,18 @@ require "jekyll"
 # Change your GitHub reponame eg. "kippt/jekyll-incorporated"
 GITHUB_REPONAME = "agileiowa/dsmagile-web"
 
+# When a task isn't found, list matching tasks.
+rule "" do |t|
+    system("rake -sT #{t}")
+end
+
 task :default => [:watch]
 
 desc "Watch the site and regenerate when it changes"
 task :watch do
   puts "Starting to watch source with Jekyll..."
   #system "sass --update _sass:css -f -l -r ./_sass/bourbon/lib/bourbon.rb"
-  jekyllPid = Process.spawn("jekyll serve --watch")
+  jekyllPid = Process.spawn("bundle exec jekyll serve --watch")
   #sassPid = Process.spawn("sass --watch _sass:css -l -r ./_sass/bourbon/lib/bourbon.rb")
 
   trap("INT") {
