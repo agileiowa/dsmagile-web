@@ -1,6 +1,3 @@
----
-layout: base
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +5,6 @@ layout: base
 </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-
 
 <div id="navbar-main">
   <!-- Fixed navbar -->
@@ -35,66 +31,7 @@ layout: base
       </div>
     </div>
   </div>
-
-  <!-- ==== HEADERWRAP ==== -->
-  <div id="headerwrap" id="home" name="home">
-    <header class="clearfix">
-      <h1>dsmAgile</h1>
-      <p>Discuss. Discover. Learn.</p>
-      <a id="register" class="btn btn-success btn-large" href="https://www.eventbrite.com/e/dsmagile-spring-2015-tickets-15682559959">Register now...</a>
-      <p>The learning continues April 10, 2015 from 8:30 AM to 4:30 PM (CDT)</p>
-      <div id="" class="vcard location">
-        <div class="org">Hy-Vee Hall</div>
-        <div class="adr">
-          <div class="street-address">730 3rd St.</div>
-          <span class="locality">Des Moines</span>
-          <span class="region">IA</span>,
-          <span class="postal-code">50309</span>
-        </div>
-      </div>
-      <p>Open Space and mixer to follow at the venue</p>
-      <p>Check back often for updates; speaker list coming soon...</p>
-      <a class="btn btn-success btn-medium" href="http://eepurl.com/8a3tz">Sign up to receive updates via e-mail</a>
-      <br/>
-      <br/>
-      <a class="btn btn-success" href="fall-2014/index.html">See what we cooked up last year</a>
-    <!-- <a class="btn btn-success btn-large" href="link-to-presos" target="_blank">Download Presentations</a>-->
-      <!--<a class="btn btn-danger btn-large" href="https://www.eventbrite.com/e/dsmagile-2014-tickets-12171610615?ref=ebtnebregn" target="_blank">Sold Out!-->
-      <!--</a>-->
-    </header>
-  </div>
-
-<!-- ==== SPEAKERS ==== -->
-  <div class="container" id="speakers" name="speakers">
-    <br>
-    <div class="row white centered">
-      <h1 class="centered">SPEAKERS</h1>
-      <hr>
-      <br>
-      <br>
-{% for speaker_hash in site.data.speakers %}
-{% assign speaker = speaker_hash[1] %}
-        <div class="col-md-6 centered" id="speaker-name">
-            <img class="img img-circle img-md" src="assets/img/speakers/{{speaker.image}}" alt="">
-            <br>
-            <h4><b>{{speaker.name}}</b></h4>
-            {% if speaker.twitter %}
-            <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
-              <i class="fa fa-twitter"></i>
-            </a>
-            {% endif %}
-
-            {% if speaker.linkedin %}
-            <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            {% endif %}
-
-            <p>{{speaker.bio}}</p>
-        </div>
-{% endfor %}
-    </div>
-  </div>
+    {{content}}
 <!--
   <div class="container" id="speakers" name="speakers">
     <br>
