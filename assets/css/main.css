@@ -638,6 +638,24 @@ a:after {
   font-weight: bold;
 }
 
+.btn-outline {
+    white-space: nowrap;
+    text-transform: uppercase;
+    background:none;
+    border-radius:4px;
+    font-size:0.8em;
+    border:2px solid #0a9268;
+    border-radius:3px;
+    color:#087a57;
+    transition:none
+}
+
+.btn-outline:hover {
+    border:2px solid #087a57;
+    color:#076246;
+    background:none
+}
+
 #register {
   margin-bottom: 15px;
 }

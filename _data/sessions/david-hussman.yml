@@ -1,6 +1,3 @@
-name: David Hussman
-image: david-hussman.jpg
-twitter: davidhussman 
 title: How to Build the Wrong Thing Faster and Learn From It
 abstract: |
     For years we’ve worked hard at software development. As teams establish better flow in software development, refactoring language, not just code, presents itself as a meaningful evolution. Where flow lives, could "software development" be refactored to "product development"? The brave pioneers that are already doing this (and there are more each day) are learning that building the product is much less clear than simply getting work done. The land of product development is filled with holes or ambiguity and laced with land mines of wrongness. Ideas that you are certain about often fizzle or change when you watch someone interact with your product. Being overly certain or overly focusing on "just getting work done" are weak weapons in a place where being wrong, and learning from it, is a vital part of finding your way to success.
@@ -8,5 +5,10 @@ abstract: |
     Instead of talking about "why you should do agile," let’s explore "why you should think in product," assuming you are using some agile practices. Our journey will explore the messy, sloppy and non-linear aspects or product development. Along the way, we’ll investigate how software construction is important but courageously failing and learning in product is essential. We’ll look at how teams are producing more real product value with less code. We will also peer into the world of program level development, where collections of teams produce product without injecting incidental complexity by employing what you might call "test driven product."
     <br/><br/>
     Who knows, toward the end of the journey, we might even rally to refactor the agile manifesto to read, "Learning in Product over Simply Getting Things Done."
-bio: | 
+speakers:
+ - id: david-hussman
+   name: David Hussman
+   image: david-hussman.jpg
+   twitter: davidhussman 
+   bio: | 
     David teaches and coaches product discovery through iterative delivery. He has spent the last 10 years coaching agility, Lean practices and producing products for companies of all sizes around the world. For each engagement, David’s coaching is non-dogmatic, well-grounded, challenging and pragmatic. By focusing on really getting to know a project community, David seeds self-discovery and avoids falling into the expert trap of simply telling people what they “should do". David spends most of his time pairing around code and tests, creating product ideas and roadmaps, and helping leadership teams pragmatically introduce the type of agility that fosters innovation and creates a competitive edge. David owns and guides <a href="http://www.devjam.com">DevJam</a> (www.devjam.com), a composition of mentors who blend technology, people, and processes to create better products in competitive cycles.

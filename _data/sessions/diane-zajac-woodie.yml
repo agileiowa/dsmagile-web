@@ -1,10 +1,12 @@
-name: Diane Zajac-Woodie 
-image: diane-zajac-woodie.jpg
 title: How Agile Helped A Business Analyst Discover Her Real Value
 abstract: |
     As companies introduce agile practices, the Business Analyst role is often left by the wayside. The title does not even exist in Scrum or other specific agile implementations, leaving many Business Analysts wondering where they fit in. But fear not! The skills of a good BA are even more valuable in an agile environment! Join Diane Zajac-Woodie as she tells the tale of a new agile team, struggling with no formal training, a resistant corporate culture and unwilling team members. She shares how this team benefited from the communication, collaboration and facilitation skills of an experienced BA. She goes on to highlight some specific shifts that Business Analysts can make in order to help their own team’s transition. These include using story maps and writing executable requirements, just in time. Embracing their new roles, BAs can also encourage team members to cross role boundaries. This leads to new skill acquisition and a more cohesive team, which ultimately leads to higher quality software and happier customers.
-twitter: agilesquirrel
-bio: | 
-   Diane Zajac-Woodie (@agilesquirrel) has spent more than six years redefining the business analyst role as more than a requirements dictator. Through open and honest conversations, Diane guides her business partners toward creative solutions that solve problems and eliminate waste. She shares this same approach with her technical teams, facilitating communication, cooperation, and continuous learning to ensure success. Diane craves knowledge almost as much as chocolate and could make question-asking an Olympic sport.
-   <br/><br/>
-   Now an agile coach, Diane's recent passion is to free those mired in the status quo even if she has to pull them out one at a time. Diane's alter ego makes her thoughts transparent on her blog, <a href="http://agilesquirrel.blogspot.com">AgileSquirrel</a>. For more serious stuff, go to <a href="http://www.greenjeansconsulting.com/">www.greenjeansconsulting.com</a>.
+speakers:
+    - id: diane-zajac-woodie 
+      name: Diane Zajac-Woodie 
+      image: diane-zajac-woodie.jpg
+      twitter: agilesquirrel
+      bio: | 
+        Diane Zajac-Woodie (@agilesquirrel) has spent more than six years redefining the business analyst role as more than a requirements dictator. Through open and honest conversations, Diane guides her business partners toward creative solutions that solve problems and eliminate waste. She shares this same approach with her technical teams, facilitating communication, cooperation, and continuous learning to ensure success. Diane craves knowledge almost as much as chocolate and could make question-asking an Olympic sport.
+        <br/><br/>
+        Now an agile coach, Diane's recent passion is to free those mired in the status quo even if she has to pull them out one at a time. Diane's alter ego makes her thoughts transparent on her blog, <a href="http://agilesquirrel.blogspot.com">AgileSquirrel</a>. For more serious stuff, go to <a href="http://www.greenjeansconsulting.com/">www.greenjeansconsulting.com</a>.

@@ -1,97 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include head.html %}
+{% include head.html %}
 </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-
-<div id="navbar-main">
-  <!-- Fixed navbar -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon icon-menu" style="font-size:30px; color:#3498db;"></span>
-        </button>
-        <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-menu" style="font-size:18px; color:#3498db;"></span></a>
-      </div>
-      <div class="navbar-collapse collapse">
-
-        <ul class="nav navbar-nav">
-          <li><a href="#home" class="smoothScroll">Home</a></li>
-            <li><a href="#speakers" class="smoothScroll"> Speakers</a></li>
-          <!--
-            <li><a href="#sessions" class="smoothScroll"> Sessions</a></li>
-            <li><a href="#schedule" class="smoothScroll"> Schedule</a></li>
-          -->
-        </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-  </div>
+    {% include nav.html %}
     {{content}}
-<!--
-  <div class="container" id="speakers" name="speakers">
-    <br>
-    <div class="row white centered">
-      <h1 class="centered">SPEAKERS</h1>
-      <hr>
-      <br>
-      <br>
-
-
-
-      <div class="col-md-6 centered" id="speaker-name">
-        <img class="img img-circle img-md" src="assets/img/speakers/speaker-image.png" alt="">
-        <br>
-        <h4><b>Speaker Name</b></h4>
-        <a href="https://twitter.com/speaker-twitter" class="icon icon-twitter"></a>
-        <p>Speaker Bio Text</p>
-      </div>
-
-      // End Speakers
-    </div>
-  </div>
--->
-
-  <!-- ==== SESSIONS ==== -->
-<!--
-  <div class="container" id="sessions" name="sessions">
-    <div class="row white">
-      <br>
-      <h1 class="centered">SESSIONS</h1>
-      <hr>
-
-      <div class="col-md-6 centered" id="speaker-name-session">
-        <div class="col-md-4">
-          <a href="#speaker-name" class="smoothScroll">
-            <img class="img img-circle" src="assets/img/speakers/speaker-image.png" height="60px" width="60px" alt="">
-          </a>
-          <br>
-          <h4>Speaker Name</h4>
-        </div>
-        <div class="col-md-8">
-          <h4><b><a href="#speaker-name-sched" class="smoothScroll">Session Title</a></b></h4>
-          <p>Session Description</p>
-        </div>
-      </div>
-    </div>
-  </div>
-<--
-<!--
-  <div class="container" id="schedule" name="schedule">
-    <br>
-    <div class="row white centered">
-      <h1 class="centered">SCHEDULE</h1>
-      <hr/>
-
-      <table class="table table-bordered">
-      </table>
-    </div>
-  </div>
--->
     {% include footer.html %}
-  </body>
-  </html>
+</body>
+</html>
