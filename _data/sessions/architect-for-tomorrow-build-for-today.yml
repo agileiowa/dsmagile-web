@@ -4,7 +4,10 @@ abstract: |
 speakers:
     - id: tony-lambert 
       name: Tony Lambert 
-      image: unknown.jpg
-      #twitter:
-      #linkedin: 
-      #bio:  
+      image: tony-lambert.png
+      twitter:
+      linkedin: 
+      bio: |
+        Over the last 12 years, Tony has spent his time at TechSmith working as a Software Engineer for products like Camtasia Studio, Snagit, Morae, and Screencast.com. Later he moved on to lead the development efforts for the TechSmith Relay and Cloud Services teams.
+        <br/><br/>
+        He now serves on the executive team as Chief Architect. In this role, Tony helps the engineering teams design and deliver cohesive solutions to the marketplace in an ever changing environment. His leadership, coaching, and mentoring helped lead to the creation of an agile engineering culture that facilitates teams achieving their potential. This culture has allowed Tony to exercise his passion for building products that change people’s lives.
