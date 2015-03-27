@@ -1,0 +1,10 @@
+title:  Architect for Tomorrow, Build for Today
+abstract: |
+    Time crunches in software projects aren't going away anytime soon. Previous technical debt is taking its toll, the project is taking longer than anticipated, and the next project is coming down the pipe. As if that isn't enough, you just been told that the project needs to finish sooner! Don't panic. In this session we'll discuss handling this situation with poise and positive action to help choose the better technical debt to take on, make sure you know how you will improve it, and help you on the path to the architecture you ultimately want.
+speakers:
+    - id: tony-lambert 
+      name: Tony Lambert 
+      image: unknown.jpg
+      #twitter:
+      #linkedin: 
+      #bio:  
