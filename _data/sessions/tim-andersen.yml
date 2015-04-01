@@ -1,3 +1,4 @@
+id: agile-data
 title: Agile Data Practices
 abstract: | 
     As software development teams ramp up on agile practices, dealing with the database is often ignored. Software developers tend to accept the fact that databases must be shared, are hard to change, and they must wait on someone else to make those changes. It doesn't have to be this way! This session will identify the pain points and anti-patterns associated with traditional database management and cover specific techniques and tools to improve the workflow for embracing database changes.

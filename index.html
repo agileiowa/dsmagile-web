@@ -70,7 +70,7 @@ layout: base
 
 {% for session_hash in site.data.sessions %}
 {% assign session = session_hash[1] %}
-      <div class="col-md-6 centered" id="speaker-name-session">
+<div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
           {% for speaker in session.speakers %}
             <a href="#{{speaker.id}}" class="smoothScroll">
@@ -88,7 +88,15 @@ layout: base
 {% endfor %}
     </div>
   </div>
-<!--
+  
+  <!-- ==== SECTION DIVIDER1 -->
+  <section class="section-divider textdivider divider1">
+    <div class="container">
+      <h1>&nbsp;</h1>
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
   <div class="container" id="schedule" name="schedule">
     <br>
     <div class="row white centered">
@@ -96,7 +104,35 @@ layout: base
       <hr/>
 
       <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="col-time">Schedule</th>
+            <th>Room 104</th>
+            <th>Room 105</th>
+            <th>Room 106</th>
+          </tr>
+        </thead>
+        <tbody>
+{% for slot in site.data.schedule%}
+    {%if slot.break %}
+        <tr class="col-all">
+            <td class="col-time">{{ slot.time }}</td>
+            <td colspan="3">{{ slot.break }}</td>
+        </tr>
+    {% else %}
+        <tr>
+            <td class="col-time">{{ slot.time }}</td>
+        {% for session in slot.sessions %}
+          <td>
+              <a href="#{{session.id}}" class="smoothScroll">{{ session.title }}</a>
+              <div>{{ session.name }}</div>
+          </td>
+        {% endfor %}
+        </tr>
+    {% endif %}
+
+{% endfor%}
+        </tbody>
       </table>
     </div>
   </div>
--->

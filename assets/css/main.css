@@ -625,6 +625,7 @@ a:after {
 
 .col-time {
   text-align: right;
+  white-space: nowrap;
 }
 
 .col-all {

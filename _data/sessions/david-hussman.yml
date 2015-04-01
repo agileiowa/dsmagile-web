@@ -1,3 +1,4 @@
+id: build
 title: How to Build the Wrong Thing Faster and Learn From It
 abstract: |
     For years we’ve worked hard at software development. As teams establish better flow in software development, refactoring language, not just code, presents itself as a meaningful evolution. Where flow lives, could "software development" be refactored to "product development"? The brave pioneers that are already doing this (and there are more each day) are learning that building the product is much less clear than simply getting work done. The land of product development is filled with holes or ambiguity and laced with land mines of wrongness. Ideas that you are certain about often fizzle or change when you watch someone interact with your product. Being overly certain or overly focusing on "just getting work done" are weak weapons in a place where being wrong, and learning from it, is a vital part of finding your way to success.

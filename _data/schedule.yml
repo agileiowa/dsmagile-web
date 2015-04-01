@@ -1,0 +1,73 @@
+- time: 8:00 - 9:00
+  break: Arrival and Registration
+
+- time: 9:00 - 9:30  
+  break: Opening - Announcements and Speaker Introductions - 101, 102, 103
+
+- time: 9:30 - 9:45
+  break: Break
+            
+- time: 9:45 - 10:45
+  sessions:
+      - id: agile-data
+        name: Tim Andersen
+        title: Agile Data Practices
+
+      - id: simplicity
+        name: Sue McKinney
+        title: "Agile in the Large: Simplicity to Address Complexity"
+
+      - id: lean-startup
+        name: Matt Ostanik
+        title: A Lean Startup Case Study
+
+- time: 10:45 - 11:00
+  break: Break
+
+- time: 11:00 - 12:00
+  sessions:
+      - id: build
+        name: David Hussman
+        title: How to Build the Wrong Thing Faster and Learn From It
+      - id: leader
+        name: "Jim Lowery & Jodi Jones"
+        title: Leaders, Do You Want to Avoid Extinction?
+
+      - id: agile-ba 
+        name: Diana Zajac-Woodie
+        title: How Agile Helped a Business Analyst Discover Her Real Value
+
+- time: 12:00 - 1:00            
+  break: Lunch - Provided
+
+- time: 1:00 - 2:00
+  sessions:
+      - id: not-smart
+        name: Brandon Carlson
+        title: "You Are Not As Smart As You Think: Improving Decision Making Skills"
+      - id: positive-politics
+        name: Heather Hassebroek & Kent McDonald
+        title: Positive Politics
+      - id: story-map
+        name: Jon Harcey
+        title: Story Mapping
+
+- time: 2:00 - 2:15
+  break: Break
+       
+- time: 2:15 - 3:15
+  sessions:
+      - id: architect
+        name: Tony Lambert
+        title: Architect for Tomorrow, Build for Today
+
+      - id: fostering
+        name: Tricia Broderick
+        title: Fostering Agility What's Needed Outside the Teams
+
+      - id: no-worry
+        name: Tadd Hatch
+        title: Things I Don't Worry About Anymore
+
+- time: 3:15 - 5:00
+  break: Open Space - Rm 107/108 (Networking, Tapas, Drinks)
