@@ -1,0 +1,12 @@
+id: story-map
+title: "The Power of Story Mapping"
+abstract: |
+    So, you have an idea that you want to build…Do you know how big that idea is? Do you know what order to build it in? Do you know all the ways a user will interact with it? Do you know how it will interact with other systems? In this session, we’ll go through an exercise in story mapping to show how it is one of the most powerful tools to help you visualize the system, explore user and system interactions, determine the order to build it, and create user stories to work from.
+speakers:
+    - id: jon-harcey
+      name: Jon Harcey
+      image: jon-harcey.png
+      twitter: 
+      linkedin: 
+      bio: |
+        Jon has 8 years of experience as a business analyst and product owner at Principal Financial Group.  He is active in the Des Moines business analysis and agile community, and helps facilitate an agile business analysis discussion group through the Central Iowa Chapter of IIBA. Jon believes that software development teams should deliver the right business value with the least amount of complexity and waste. He also encourages other business analysts and teams to think differently in their own work through mentoring and coaching. Jon’s other passions include his family, Habitat for Humanity, and craft beer.
