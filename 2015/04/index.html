@@ -1,40 +1,23 @@
 ---
 layout: base
-show-speakers: false
-show-sessions: false
-event:
-    name: dsmAgile
-    tagline: Discuss. Discover. Learn.
-    date: 2015-04-10
-    time: 8:30 AM to 4:30 PM
-    mailing-list: http://eepurl.com/8a3tz
-    <!--eventbriteid: dsmagile-spring-2015-tickets-15682559959-->
-    location:
-        name: Hy-Vee Hall
-        address: 730 3rd St.
-        city: Des Moines
-        state: IA
-        zip: 50309
 ---
-{% assign sessions = site.data.2015.09.sessions %}
-{% assign schedule = site.data.2015.09.schedule %}
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
     <header class="clearfix">
-      <h1>{{page.event.name}}</h1>
-      <p>{{page.event.tagline}}</p>
-      <p>The learning continues {{page.event.date | date: "%A, %B %-d, %Y" }} from {{page.event.time}}</p>
+      <h1>dsmAgile</h1>
+      <p>Discuss. Discover. Learn.</p>
+      <p>The learning continues April 10, 2015 from 8:30 AM to 4:30 PM (CDT)</p>
       <div id="" class="vcard location">
-        <div class="org">{{page.event.location.name}}</div>
+        <div class="org">Hy-Vee Hall</div>
         <div class="adr">
-            <div class="street-address">{{page.event.location.address}}</div>
-          <span class="locality">{{page.event.location.city}}</span>
-          <span class="region">{{page.event.location.state}}</span>,
-          <span class="postal-code">{{page.event.location.zip}}</span>
+          <div class="street-address">730 3rd St.</div>
+          <span class="locality">Des Moines</span>
+          <span class="region">IA</span>,
+          <span class="postal-code">50309</span>
         </div>
       </div>
       <p>Open Space and mixer to follow at the venue</p>
-      <a class="btn btn-success btn-medium" href="{{page.event.mailing-list}}">Sign up to receive updates via e-mail</a>
+      <a class="btn btn-success btn-medium" href="http://eepurl.com/8a3tz">Sign up to receive updates via e-mail</a>
       <br/>
       <br/>
     <!-- <a class="btn btn-success btn-large" href="link-to-presos" target="_blank">Download Presentations</a>-->
@@ -43,7 +26,6 @@ event:
     </header>
   </div>
 
-{% if page.show-speakers == true %}
 <!-- ==== SPEAKERS ==== -->
   <div class="container" id="speakers" name="speakers">
     <br>
@@ -52,7 +34,7 @@ event:
       <hr>
       <br>
       <br>
-{% for session_hash in sessions %}
+{% for session_hash in site.data.2015.04.sessions %}
 {% assign session = session_hash[1] %}
     {% for speaker in session.speakers %}
     <div class="col-md-6 centered" id="{{speaker.id}}">
@@ -77,9 +59,7 @@ event:
 {% endfor %}
     </div>
   </div>
-{% endif %}
 
-{% if page.show-sessions == true %}
   <!-- ==== SESSIONS ==== -->
   <div class="container" id="sessions" name="sessions">
     <div class="row white">
@@ -87,7 +67,7 @@ event:
       <h1 class="centered">SESSIONS</h1>
       <hr>
 
-{% for session_hash in sessions %}
+{% for session_hash in site.data.2015.04.sessions %}
 {% assign session = session_hash[1] %}
 <div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
@@ -126,18 +106,17 @@ event:
         <thead>
           <tr>
             <th class="col-time">Schedule</th>
-            <th>Track 1</th>
-            <th>Track 2</th>
-            <th>Track 3</th>
-            <th>Track 4</th>
+            <th>Room 104</th>
+            <th>Room 105</th>
+            <th>Room 106</th>
           </tr>
         </thead>
         <tbody>
-{% for slot in schedule %}
+{% for slot in site.data.2015.04.schedule%}
     {%if slot.break %}
         <tr class="col-all">
             <td class="col-time">{{ slot.time }}</td>
-            <td colspan="4">{{ slot.break }}</td>
+            <td colspan="3">{{ slot.break }}</td>
         </tr>
     {% else %}
         <tr>
@@ -156,4 +135,3 @@ event:
       </table>
     </div>
   </div>
-{% endif %}

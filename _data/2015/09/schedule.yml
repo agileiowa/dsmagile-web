@@ -1,0 +1,48 @@
+- time: 8:00 - 9:00
+  break: Arrival and Registration
+
+- time: 9:00 - 9:30  
+  break: Opening - Announcements and Speaker Introductions
+
+- time: 9:30 - 9:45
+  break: Break
+            
+- time: 9:45 - 10:45
+  sessions:
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+
+- time: 10:45 - 11:00
+  break: Break
+
+- time: 11:00 - 12:00
+  sessions:
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+
+- time: 12:00 - 1:00            
+  break: Lunch - Provided
+
+- time: 1:00 - 2:00
+  sessions:
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+
+- time: 2:00 - 2:15
+  break: Break
+       
+- time: 2:15 - 3:15
+  sessions:
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+      - title: TBD 
+
+- time: 3:15 - 5:00
+  break: Open Space
