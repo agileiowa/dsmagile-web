@@ -1,6 +1,6 @@
 ---
 layout: base
-show-speakers: false
+show-speakers: true
 show-sessions: false
 event:
     name: dsmAgile
@@ -79,7 +79,6 @@ event:
   </div>
 {% endif %}
 
-{% if page.show-sessions == true %}
   <!-- ==== SESSIONS ==== -->
   <div class="container" id="sessions" name="sessions">
     <div class="row white">
@@ -116,6 +115,7 @@ event:
     </div>
   </section>
 
+{% if page.show-sessions == true %}
   <div class="container" id="schedule" name="schedule">
     <br>
     <div class="row white centered">
