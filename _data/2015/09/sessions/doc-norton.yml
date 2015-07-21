@@ -5,7 +5,7 @@ abstract: |
 speakers:
     - id: doc-norton
       name: Doc Norton
-      image: doc-norton.jpg
+      image: doc-norton.png
       twitter: DocOnDev
       linkedin:  
       bio: |
