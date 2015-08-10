@@ -1,0 +1,21 @@
+- id: speaker-one 
+  name: Speaker One
+  image: unknown.jpg
+  twitter:
+  linkedin:  
+  bio: |
+    Speaker ones' bio
+- id: speaker-two 
+  name: Speaker two
+  image: unknown.jpg
+  twitter:
+  linkedin:  
+  bio: |
+    Speaker twos' bio
+- id: speaker-three 
+  name: Speaker three
+  image: unknown.jpg
+  twitter:
+  linkedin:  
+  bio: |
+    Speaker threes' bio

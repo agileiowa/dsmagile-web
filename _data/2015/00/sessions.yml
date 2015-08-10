@@ -1,0 +1,14 @@
+- id: first
+  title: First
+  speaker-ids:
+    - speaker-one
+    - speaker-two
+  abstract: |
+      First Abstract
+
+- id: second
+  title: Second
+  speaker-ids:
+      - speaker-three
+  abstract: |
+      Second Abstract
