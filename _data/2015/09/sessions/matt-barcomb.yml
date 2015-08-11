@@ -1,14 +1,10 @@
-id: koalas
-title: To be determined
-abstract:
+id: flow
+title: Evolving Team’s through Cadenced Flow
+abstract: |
+    So you’re on a team that “went agile” (whatever that means) and you’ve been using Scrum or Kanban or some other method for a while. But for some reason you’re either not seeing things get better, can’t get traction or the improvements have slowed down or stopped. And it seems every time a new change is suggested, there is an over focus on process and the people are forgotten as well as actually delivering something useful and maintainable. If this sounds like your situation, it may be due to the approach, not the method.
+    <br/>
+    Here, Cat & Matt introduce Cadenced Flow, which is a principled approach for evolving teams no matter what methods they are using or how far along they are on their journey of becoming more lean or agile. Participants will learn the basic principles that drive team cadence and workflow and then cover practical approaches for improvement, such as how to define and measure work as well as how to coordinate and deliver product.
 speakers:
-    - id: cat-swetel
-      name: Cat Swetel
-      image: cat-swetel.jpg
-      twitter:
-      bio: |
-          Cat leads technology projects at a large financial services company. She has served as a coach on several Lean Agile transformations and has experience applying lean principles in a traditional warehouse setting and in software development. Cat enjoys experimenting with new technologies and is passionate about increasing diversity in STEM.
-
     - id: matt-barcomb 
       name: Matt Barcomb
       image: matt-barcomb.jpg

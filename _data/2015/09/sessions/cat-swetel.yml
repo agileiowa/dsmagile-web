@@ -1,0 +1,14 @@
+id: lean
+title: Lean Portfolio & Roadmap Planning
+abstract: | 
+    Traditional, schedule-based roadmaps got you down? Never feel like you’re getting any traction? Does a misaligned portfolio make prioritization nearly impossible? Consider a product-driven approach and stop using construction-oriented models and start using development-minded methods instead!
+    <br/>
+    In this session, you will be provided the tools to begin crafting a comprehensive product-driven roadmap aligned to an investment-style portfolio.  These tools will show how to include plans for development as well as organizational readiness activities and infrastructure impacts. Additionally, you will learn techniques to manage and measure the delivery of roadmap items as well as how communicate the new approach with your business partners. Your speakers will also share observations on common implementations and evolutions of these basic tools and common concerns associated with product-driven roadmaps.
+    
+speakers:
+    - id: cat-swetel
+      name: Cat Swetel
+      image: cat-swetel.jpg
+      twitter:
+      bio: |
+          Cat leads technology projects at a large financial services company. She has served as a coach on several Lean Agile transformations and has experience applying lean principles in a traditional warehouse setting and in software development. Cat enjoys experimenting with new technologies and is passionate about increasing diversity in STEM.
