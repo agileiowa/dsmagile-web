@@ -1,0 +1,21 @@
+id: change
+title: "Communicating Change"
+abstract: |
+    Stop me if you've heard this one:
+    <br/><br/>
+    Q: What did the developer say to the users in the changelog?
+    A: Minor bug fixes and enhancements.
+    <br/><br/>
+    Whoops, sorry, that's not a joke. It is unfortunately common, though. Far too often, changes in software and websites are communicated to users with a cavalier attitude — if it all. In this workshop, you'll learn why it's important to communicate clearly about change, why we often don't, and how to do it better.
+    <br/><br/>
+    Attendees will learn a three-step framework for communicating about change with users and customers. We'll also explore three advanced techniques to ease user concerns—and even turn them to your advantage—during substantial or controversial changes to your sites, apps, and services. We'll walk through design exercises that help us learn to think chronologically and contextually and communicate change with greater clarity.
+    <br/><br/>
+    You'll leave with a greater appreciation for how UI, UX, content, and copywriting interconnect in the delicate art of moving someone's digital cheese.      
+speakers:
+    - id: scott-kubie
+      name: Scott Kubie
+      image: scott-kubie.jpg
+      twitter: scottkubie
+      linkedin: 
+      bio: |
+        Scott Kubie is an independent designer and digital strategist from Des Moines, Iowa, USA. He uses writing, modeling, and editorial strategy to design products and services, and coaches teams on how to do the same. Scott is the co-organizer of World Information Architecture Day Des Moines and serves on the board of AIGA Iowa. Scott has spoken and led workshops at many great web events including Confab Intensive, The Information Architecture Summit, the Web Conference at Penn State, the University of Illinois Web Conference, MinneWebcon, and Midwest UX. He'd love to meet your pug and will have a sparkling water please, thank you.
