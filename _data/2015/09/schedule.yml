@@ -9,40 +9,71 @@
             
 - time: 9:45 - 10:45
   sessions:
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
+      - title: Culture Follows Structure 
+        id: culture-structure
+        name: Jason Little
+      - title: Lean Portfolio & Roadmap Planning
+        id: lean
+        name: Cat Swetel & Matt Barcomb
+      - title: "Barely Manage to Lead: How Agile, Teams, and Iterative Thinking Transform Leadership"
+        id: barely
+        name: Geoff Wilson
+      - title: "Behavior Driven Development Explained: Real World Examples"
+        id: bdd
+        name: Cecil Williams and Todd Brunia
 
 - time: 10:45 - 11:00
   break: Break
 
 - time: 11:00 - 12:00
   sessions:
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
+      - title: "Agile Metrics:
+Velocity is NOT the Goal"
+        id: velocity
+        name: Doc Norton
+      - title: Analysis across Five Levels of Agile Planning 
+        id: five-levels 
+        name: Leslie Morse
+      - title: "Building A Sustainable Agile Organization: A Leadership-Driven Approach" 
+        id: leadership-driven
+        name: Sean Dunn
+      - title: "So What do We Do with the Architects?" 
+        id: architects
+        name: Ryan Bergman
 
 - time: 12:00 - 1:00            
   break: Lunch - Provided
 
 - time: 1:00 - 2:00
   sessions:
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
-
+      - title: "Evolving Teams Through Cadenced Flow"
+        id: flow
+        name: "Cat Swetel & Matt Barcomb"
+      - title: Usability
+        name: Scarlett Sidwell 
+        id: usability
+      - title: "How to Sustain Agile: Teams and Organizations"
+        name: Lisa Shoop
+        id: sustain
+      - title: "Test Automation: Yes, you need it. Yes, you're doing it Wrong"
+        name: Brandon Carlson
+        id: koalas
 - time: 2:00 - 2:15
   break: Break
        
 - time: 2:15 - 3:15
   sessions:
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
-      - title: TBD 
-
+      - title: "7 Sins of Scrum and other Agile Anti-Patterns"
+        name: Todd Little
+        id:
+      - title: "The Product Owner Value Game"
+        name: Kent McDonald
+        id: kent
+      - title: "Wicked Problems, and How To <s>Solve</s> Work Through Them"
+        name: Amy Lee
+        id: wicked
+      - title: Communicating Change
+        name: Scott Kubie
+        id: change
 - time: 3:15 - 5:00
   break: Open Space
