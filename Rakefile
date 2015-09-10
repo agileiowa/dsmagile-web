@@ -38,9 +38,21 @@ namespace :site do
     })).process
   end
 
+  task :check do
+      if (has_unpushed_commits())
+          puts "\e[31mYou have un-pushed changes. NO PUBLISH FOR YOU!!\e[0m"
+          exit 0
+      end
+  end
+
+  def has_unpushed_commits()
+    system "git fetch origin master -q"
+    status = `git status -sb`
+    (status =~ /\[ahead \d{1,}\]/)
+  end
 
   desc "Generate and publish blog to gh-pages"
-  task :publish => [:generate] do
+  task :publish => [:check, :generate] do
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
       Dir.chdir tmp
