@@ -49,9 +49,9 @@ Velocity is NOT the Goal"
       - title: "Evolving Teams Through Cadenced Flow"
         id: flow
         name: "Cat Swetel & Matt Barcomb"
-      - title: Usability
+      - title: UX in the Real World
         name: Scarlett Sidwell 
-        id: usability
+        id: ux
       - title: "How to Sustain Agile: Teams and Organizations"
         name: Lisa Shoop
         id: sustain
@@ -68,7 +68,7 @@ Velocity is NOT the Goal"
         id:
       - title: "The Product Owner Value Game"
         name: Kent McDonald
-        id: kent
+        id: game
       - title: "Wicked Problems, and How To <s>Solve</s> Work Through Them"
         name: Amy Lee
         id: wicked
