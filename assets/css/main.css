@@ -24,6 +24,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    margin-bottom: 80px;
 }
 
 .btn-large{
@@ -273,7 +274,6 @@ a:after {
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
-
 #headerwrap {
 	background: url(../img/header_bg.jpg) no-repeat center top;
 	margin-top: -50px;
@@ -343,18 +343,37 @@ a:after {
 }
 
 #footerwrap {
-	background: #2b2b2b;
+    position:fixed;
+	bottom:0;
+    width:100%;
+    /*background: #2b2b2b;*/
+    background: white;
 	margin-top: 0px;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #ddd;
+    min-height: 80px;
+	/*padding-top: 40px;*/
+	/*padding-bottom: 20px;*/
+	border-top: 5px solid #999;
+	border-bottom: 1px solid #999;
 	text-align: center;
 }
 
-#footerwrap h4 {
-	color: white;
+#footerlogo {
+    min-width: 120px;
+    float: right;
+    background: url('../img/Agile-logo-4c-alliance-sm.jpg') no-repeat right top;
+    width: 120px;
+    height: 80px;
+    min-height:80px;
 }
 
+#footerwrap h4 {
+	color: black;
+    float: left;
+}
+
+.left{
+    float: left;
+}
 
 /* ==========================================================================
    Box Sections
