@@ -100,6 +100,9 @@ event:
         </div>
         <div class="col-md-8">
             <h4><b>{{session.title}}</b></h4>
+            {% if session.link %}
+            <a href="{{session.link}}">Slides</a>
+            {% endif %}
             <p>{{session.abstract}}</p>
         </div>
       </div>
