@@ -1,5 +1,6 @@
 id: bdd
 title: "BDD Explained Through Real World Examples" 
+link: /assets/presentations/2015/09/BDD Explained.pdf
 abstract: |
     In this session you'll hear how real software engineering teams have delivered exceptional value to their customers using Behavior Driven Development(BDD). We'll start by demystifying BDD. Then, we'll introduce you to best in class BDD tooling and explain BDD techniques your team can use to take collaboration to the next level. Come see Java and .NET examples applied to desktop, web, infrastructure and micro service contexts. Following our session, you'll have the knowledge you'll need to start incorporating BDD into your software engineering practices today. 
 speakers:
