@@ -1,14 +1,14 @@
 ---
 layout: base
-show-speakers: true
-show-sessions: true
+show-speakers: false
+show-schedule: false
 event:
     name: dsmAgile
     tagline: Discuss. Discover. Learn.
-    date: 2015-09-25 
+    date: 2016-09-09
     time: 8:30 AM to 4:30 PM
-    mailing-list: http://eepurl.com/8a3tz
-    eventbriteid: dsmagile-fall-2015-tickets-17808997190
+    mailing-list: http://eepurl.com/NOT_USED
+    eventbriteid:
     location:
         name: Community Choice Credit Union Convention Center
         address: 833 5th Ave
@@ -16,8 +16,8 @@ event:
         state: IA
         zip: 50309
 ---
-{% assign sessions = site.data.2015.09.sessions %}
-{% assign schedule = site.data.2015.09.schedule %}
+{% assign sessions = site.data.2016.09.sessions %}
+{% assign schedule = site.data.2016.09.schedule %}
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
     <header class="clearfix">
@@ -34,7 +34,9 @@ event:
         </div>
       </div>
       <p>Open Space and mixer to follow at the venue</p>
+        {% if page.event.eventbriteid %}
       <a class="btn btn-success btn-large" href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}">Register</a>
+        {% endif %}
       <br/>
       <br/>
     <!-- <a class="btn btn-success btn-large" href="link-to-presos" target="_blank">Download Presentations</a>-->
@@ -77,7 +79,7 @@ event:
 {% endfor %}
     </div>
   </div>
-{% endif %}
+
 
   <!-- ==== SESSIONS ==== -->
   <div class="container" id="sessions" name="sessions">
@@ -109,7 +111,7 @@ event:
 {% endfor %}
     </div>
   </div>
-  
+
   <!-- ==== SECTION DIVIDER1 -->
   <section class="section-divider textdivider divider1">
     <div class="container">
@@ -117,8 +119,9 @@ event:
       <p>&nbsp;</p>
     </div>
   </section>
+{% endif %}
 
-{% if page.show-sessions == true %}
+{% if page.show-schedule == true %}
   <div class="container" id="schedule" name="schedule">
     <br>
     <div class="row white centered">
