@@ -1,0 +1,162 @@
+---
+layout: base
+show-speakers: true
+show-sessions: true
+event:
+    name: dsmAgile
+    tagline: Discuss. Discover. Learn.
+    date: 2015-09-25 
+    time: 8:30 AM to 4:30 PM
+    mailing-list: http://eepurl.com/8a3tz
+    eventbriteid: dsmagile-fall-2015-tickets-17808997190
+    location:
+        name: Community Choice Credit Union Convention Center
+        address: 833 5th Ave
+        city: Des Moines
+        state: IA
+        zip: 50309
+---
+{% assign sessions = site.data.2015.09.sessions %}
+{% assign schedule = site.data.2015.09.schedule %}
+  <!-- ==== HEADERWRAP ==== -->
+  <div id="headerwrap" id="home" name="home">
+    <header class="clearfix">
+      <h1>{{page.event.name}}</h1>
+      <p>{{page.event.tagline}}</p>
+      <p>{{page.event.date | date: "%A, %B %-d, %Y" }} from {{page.event.time}}</p>
+      <div id="" class="vcard location">
+        <div class="org">{{page.event.location.name}}</div>
+        <div class="adr">
+            <div class="street-address">{{page.event.location.address}}</div>
+          <span class="locality">{{page.event.location.city}}</span>
+          <span class="region">{{page.event.location.state}}</span>,
+          <span class="postal-code">{{page.event.location.zip}}</span>
+        </div>
+      </div>
+      <p>Open Space and mixer to follow at the venue</p>
+      <a class="btn btn-success btn-large" href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}">Register</a>
+      <br/>
+      <br/>
+    <!-- <a class="btn btn-success btn-large" href="link-to-presos" target="_blank">Download Presentations</a>-->
+      <!--<a class="btn btn-danger btn-large" href="https://www.eventbrite.com/e/dsmagile-2014-tickets-12171610615?ref=ebtnebregn" target="_blank">Sold Out!-->
+      <!--</a>-->
+    </header>
+  </div>
+
+{% if page.show-speakers == true %}
+<!-- ==== SPEAKERS ==== -->
+  <div class="container" id="speakers" name="speakers">
+    <br>
+    <div class="row white centered">
+      <h1 class="centered">SPEAKERS</h1>
+      <hr>
+      <br>
+      <br>
+{% for session_hash in sessions %}
+{% assign session = session_hash[1] %}
+    {% for speaker in session.speakers %}
+    <div class="col-md-6 centered" id="{{speaker.id}}">
+            <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
+            <br>
+            <h4><b>{{speaker.name}}</b></h4>
+            {% if speaker.twitter %}
+            <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
+              <i class="fa fa-twitter"></i>
+            </a>
+            {% endif %}
+
+            {% if speaker.linkedin %}
+            <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            {% endif %}
+
+            <p>{{speaker.bio}}</p>
+        </div>
+    {% endfor %}
+{% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+  <!-- ==== SESSIONS ==== -->
+  <div class="container" id="sessions" name="sessions">
+    <div class="row white">
+      <br>
+      <h1 class="centered">SESSIONS</h1>
+      <hr>
+
+{% for session_hash in sessions %}
+{% assign session = session_hash[1] %}
+<div class="col-md-6 centered" id="{{session.id}}">
+        <div class="col-md-4">
+          {% for speaker in session.speakers %}
+            <a href="#{{speaker.id}}" class="smoothScroll">
+              <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+          </a>
+          <br>
+          <h4>{{speaker.name}}</h4>
+          {% endfor %}
+        </div>
+        <div class="col-md-8">
+            <h4><b>{{session.title}}</b></h4>
+            {% if session.link %}
+            <a href="{{session.link}}">Slides</a>
+            {% endif %}
+            <p>{{session.abstract}}</p>
+        </div>
+      </div>
+{% endfor %}
+    </div>
+  </div>
+  
+  <!-- ==== SECTION DIVIDER1 -->
+  <section class="section-divider textdivider divider1">
+    <div class="container">
+      <h1>&nbsp;</h1>
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
+{% if page.show-sessions == true %}
+  <div class="container" id="schedule" name="schedule">
+    <br>
+    <div class="row white centered">
+      <h1 class="centered">SCHEDULE</h1>
+      <hr/>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="col-time">Schedule</th>
+            <th>Room A</th>
+            <th>Room B</th>
+            <th>Room C</th>
+            <th>Room D</th>
+          </tr>
+        </thead>
+        <tbody>
+{% for slot in schedule %}
+    {%if slot.break %}
+        <tr class="col-all">
+            <td class="col-time">{{ slot.time }}</td>
+            <td colspan="4">{{ slot.break }}</td>
+        </tr>
+    {% else %}
+        <tr>
+            <td class="col-time">{{ slot.time }}</td>
+        {% for session in slot.sessions %}
+          <td>
+              <a href="#{{session.id}}" class="smoothScroll">{{ session.title }}</a>
+              <div>{{ session.name }}</div>
+          </td>
+        {% endfor %}
+        </tr>
+    {% endif %}
+
+{% endfor%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endif %}
