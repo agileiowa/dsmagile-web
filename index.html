@@ -1,6 +1,7 @@
 ---
 layout: base
-show-speakers: false
+show-speakers: true
+show-sessions: false
 show-schedule: false
 show-soldout: false
 event:
@@ -56,7 +57,7 @@ event:
       <br>
       <br>
 {% for session_hash in sessions %}
-{% assign session = session_hash[1] %}
+    {% assign session = session_hash[1] %}
     {% for speaker in session.speakers %}
     <div class="col-md-6 centered" id="{{speaker.id}}">
             <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
@@ -80,8 +81,9 @@ event:
 {% endfor %}
     </div>
   </div>
-
-
+{% endif %}
+<!-- End Speakers Section -->
+{% if page.show-sessions == true %}
   <!-- ==== SESSIONS ==== -->
   <div class="container" id="sessions" name="sessions">
     <div class="row white">

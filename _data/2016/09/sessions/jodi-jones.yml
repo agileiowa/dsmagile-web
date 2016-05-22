@@ -1,0 +1,20 @@
+id: jones
+title: 
+abstract: |
+speakers:
+    - id: jodi-jones
+      name: Jodi Jones
+      image: jodi-jones.jpg
+      twitter: jodimj
+      linkedin: 
+      bio: |
+    - id: kent
+      name: Kent McDonald
+      image: kent-mcdonald.png
+      twitter: beyondreqs
+      linkedin: kentmcdonald
+      bio-b: |
+        Kent J. McDonald uncovers better ways of delivering value by doing it and helping others do it.  His 20 years of experience include work in business analysis, strategic planning, project management, and product development in a variety of industries including financial services, health insurance, performance marketing, human services, nonprofit, and automotive. He is active in the business analysis and agile software development communities helping people share stories about what does and does not work.  He shares those stories at beyondrequirements.com in addition to presenting at and helping organize several local and international conferences.
+        <br/>
+        <br/>
+        Kent is  author of <i>Beyond Requirements: Analysis with an Agile Mindset</i>, and co-author of <i>Stand Back and Deliver: Accelerating Business Agility</i>.
