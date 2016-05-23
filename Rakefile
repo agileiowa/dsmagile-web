@@ -34,14 +34,19 @@ namespace :site do
   task :generate do
     Jekyll::Site.new(Jekyll.configuration({
       "source"      => ".",
-      "destination" => "_site"
+      "destination" => "_site",
+      "exclude" => ["Rakefile"]
     })).process
   end
 
   task :check do
       if (has_unpushed_commits())
-          puts "\e[31mYou have un-pushed changes. NO PUBLISH FOR YOU!!\e[0m"
-          exit 0
+        puts "\e[31mYou have un-pushed changes. NO PUBLISH FOR YOU!!\e[0m"
+        exit 0
+      end
+      if (not_master_branch())
+        puts "\e[31mYou need to be on the master branch. NO PUBLISH FOR YOU!!\e[0m"
+        exit 0
       end
   end
 
@@ -51,17 +56,37 @@ namespace :site do
     (status =~ /\[ahead \d{1,}\]/)
   end
 
+  def not_master_branch()
+    current_branch = `git rev-parse --abbrev-ref HEAD`
+    (current_branch == 'master')
+  end
+
   desc "Generate and publish blog to gh-pages"
-  task :publish => [:check, :generate] do
-    Dir.mktmpdir do |tmp|
-      cp_r "_site/.", tmp
-      Dir.chdir tmp
-      system "git init"
+  task :publish => [:check] do
+
+    FileUtils.rm_r Dir.glob('_site/*')
+    Rake::Task['site:generate'].invoke
+    Dir.chdir("_site/")do
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
-      system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
-      system "git push origin master:refs/heads/gh-pages --force"
+      system "git push"
     end
+
+    # system "git st"
+    system "git add ."
+    message = "Site published at #{Time.now.utc}"
+    system "git commit -m #{message.inspect}"
+
+    # Dir.mktmpdir do |tmp|
+    #   cp_r "_site/.", tmp
+    #   Dir.chdir tmp
+    #   system "git init"
+    #   system "git add ."
+    #   message = "Site updated at #{Time.now.utc}"
+    #   system "git commit -m #{message.inspect}"
+    #   system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
+    #   system "git push origin master:refs/heads/gh-pages --force"
+    # end
   end
 end
