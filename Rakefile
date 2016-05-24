@@ -64,13 +64,15 @@ namespace :site do
   desc "Generate and publish blog to gh-pages"
   task :publish => [:check] do
 
+    system "git submodule update --init"
     FileUtils.rm_r Dir.glob('_site/*')
+    
     Rake::Task['site:generate'].invoke
     Dir.chdir("_site/")do
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
-      system "git push"
+      system "git push origin gh-pages"
     end
 
     # system "git st"
