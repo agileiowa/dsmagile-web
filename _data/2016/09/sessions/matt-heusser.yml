@@ -1,10 +1,18 @@
 id: heusser
-title: 
-abstract: 
+title: "Agile-Test Evolution:  Changing Test Strategy Over Time"
+abstract: > 
+    After years of consulting and conferring with teams from Activate to Zappos, Matt Heusser has seen more that how teams test - he has seen how test strategy changes over time to support more ambitious development approaches. 
+    <br/>
+    <br/>
+    That vantage point gave Matt the opportunity to put together a playbook - a guide to the recurring patterns of success, and failure, that he has for teams on the page of continuous improvement. Teams that moved from heavily documented process to light, to executable examples and exploration, and, for some, one-piece flow and continuous delivery tend to experiment with technique — some techniques seem to work, and others, not so much.
+    <br/>
+    <br/>
+    Come benefit from the experience of others as we discuss a move to a fluency model for Agile-Testing, with real examples. Take home ways your team might evolve … and perhaps a few things to avoid.
 speakers:
     - id: matt-heusser
       name: Matt Heusser
       image: matt-heusser.jpg
       twitter: mheusser
       linkedin: mheusser
-      bio: |
+      bio-b: >
+          As the Managing Director of Excelon Development, Matt Heusser, consults, trains, and does software delivery while helping others do it. Probably best known for his writing, Matt is the lead editor of "How to Reduce The Cost of Software Testing" (Taylor and Francis, 2011), editor for Stickyminds.com, and recipient of the 2015 Most Popular Online Contributor to Agile at the Agile Awards. A 2014 recipient of the Most Influential Agile Test Professional Person Award (MAITPP) in Potsdam, Germany, Matt also served as the lead organizer of theSoftware Testing World Cup. He is a former of the board of directors of the Association for Software Testing and creator ofLean Software Testing family of methods.

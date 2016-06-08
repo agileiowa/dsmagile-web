@@ -1,6 +1,13 @@
 id: falko
-title: 
-abstract: 
+title: Knowing what bad code looks like 
+abstract: > 
+    You don’t need to be a mechanic to know something is wrong with your car. And you don’t need to be a programmer to know if something is wrong with the code.
+    <br/>
+    <br/>
+    This session will focus on training you to have a ‘sense of smell’ for bad code. So you can increase the serendipity in your explorations by having insights into which sections of code are particularly error prone.
+    <br/>
+    <br/>
+    Let’s take a look at how quickly we can instill some design sense into fresh minds using Sparrow Decks. Sparrow decks are a rapid succession of 50-100 examples in a 3 minute burst. They allow the pattern recognition portion of the brain to spring in gear and do what it does best.
 speakers:
     - id: llewelyn-falco.yml
       name: Llewelyn Falco

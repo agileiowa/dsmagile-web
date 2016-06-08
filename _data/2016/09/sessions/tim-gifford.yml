@@ -7,4 +7,12 @@ speakers:
       image: tim-gifford.jpg
       twitter: timgifford
       linkedin: timgifford
-      bio: |
+      bio-b: |
+        Tim Gifford is a software craftsman in West Des Moines, Ia. where he provides training, mentoring, software development and Agile consulting to Central Iowa businesses.
+        <br/><br/>
+        As a Software Delivery Coach, Tim Gifford works with companies to transform their software from a liability and cost center to an asset and competitive advantage.
+        <br/><br/>
+        Tim remains active in the Des Moines technology community having co-founded Agile Iowa, a group devoted to the promotion and discussion of agile methodologies in the state of Iowa, and by serving on the executive board of the Iowa .NET User Group (IADNUG).
+        <br/><br/>
+        Specialties: Systems Thinking, Theory of Constraints, Agile/Lean Software Development, Extreme Programming, Continuous Delivery, DevOps, Kanban, Test Driven Development, Acceptance Test Driven Development, Behavior Driven Development, SpecFlow, Cucumber, FitNesse, Pair Programming, C#, Java 
+
