@@ -69,6 +69,7 @@ namespace :site do
     
     Rake::Task['site:generate'].invoke
     Dir.chdir("_site/")do
+      system "git checkout gh-pages"
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
