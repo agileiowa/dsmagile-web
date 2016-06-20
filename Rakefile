@@ -77,9 +77,9 @@ namespace :site do
     end
 
     # system "git st"
-    system "git add ."
-    message = "Site published at #{Time.now.utc}"
-    system "git commit -m #{message.inspect}"
+    # system "git add ."
+    # message = "Site published at #{Time.now.utc}"
+    # system "git commit -m #{message.inspect}"
 
     # Dir.mktmpdir do |tmp|
     #   cp_r "_site/.", tmp
