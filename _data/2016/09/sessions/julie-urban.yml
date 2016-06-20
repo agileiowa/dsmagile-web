@@ -1,35 +1,15 @@
 id: urban
-title: How Our Leaders Transformed to Lead Agile (or How I Learned to Shut Up)
-abstract: >
-    One of the major success factors in an agile transformation is helping teams take ownership: 
-    the teams own the 
-    solution. This requires Leaders 
-    learning how and when to step back (and when to step up.) 
-    <br/>
-    <br/>
-    The Veritas NetBackup organization has tried agile transformations
-    three times in the last seven years with the first two not succeeding 
-    and the third one going much better. The key difference has been the 
-    transformation of the Leaders to help teams take ownership as opposed to 
-    focusing only on the scrum artifacts and ceremonies. Moving from 
-    managers to Leaders is not an easy task. How did these Leaders learn? 
-    What did they learn? Join us to hear about NetBackup's transformation 
-    story and some of the concepts and techniques that made the difference 
-    such as learning to be an enabler, how to ask questions and not give 
-    answers, and other tools.
+title: How Our Leaders Transformed to Lead Agile (or How I Learned to Shut Up…)
+abstract: | 
+   One of the major success factors in an agile transformation is helping teams take ownership: the teams own the solution. This requires Leaders learning how and when to step back (and when to step up.)
+       <br/>
+       <br/>
+       The Veritas NetBackup organization has tried agile transformations three times in the last seven years with the first two not succeeding and the third one going much better. The key difference has been the transformation of the Leaders to help teams take ownership as opposed to focusing only on the scrum artifacts and ceremonies. Moving from managers to Leaders is not an easy task. How did these Leaders learn? What did they learn? Join us to hear about NetBackup’s transformation story and some of the concepts and techniques that made the difference such as learning to be an enabler, how to ask questions and not give answers, and other tools. 
 speakers:
     - id: julie-urban
       name: Julie Urban
       image: julie-urban.jpg
       twitter: 
       linkedin: julie-myers-urban-65a42b
-      bio-b: > 
-        Julie has over 30 years in Enterprise Software and is an 
-        experienced leader of high tech development teams, a 
-        former Director of Engineering, and a joint inventor on 5 patents. 
-        She is knowledgeable in all aspects of development and delivery, agile 
-        methodologies, coaching, and collaborative leadership. She is 
-        committed to diversity with a focus on supporting Women in 
-        Technology and encouraging girls to embrace STEM. 
-        Currently at Veritas in role of Agile Transformation Coach, 
-        Scrum Master, and practitioner in the Agile Practice Group.
+      bio: |
+          Julie has over 30 years in Enterprise Software and is an experienced leader of high tech development teams, a former Director of Engineering, and a joint inventor on 5 patents. She is knowledgeable in all aspects of development and delivery, agile methodologies, coaching, and collaborative leadership. She is committed to diversity with a focus on supporting Women in Technology and encouraging girls to embrace STEM. Currently at Veritas in role of Agile Transformation Coach, Scrum Master, and practitioner in the Agile Practice Group.

@@ -1,6 +1,6 @@
 id: falko
-title: Knowing what bad code looks like 
-abstract: > 
+title: Knowing what bad code looks like
+abstract: | 
     You don’t need to be a mechanic to know something is wrong with your car. And you don’t need to be a programmer to know if something is wrong with the code.
     <br/>
     <br/>
@@ -11,7 +11,8 @@ abstract: >
 speakers:
     - id: llewelyn-falco.yml
       name: Llewelyn Falco
-      image: llewelyn-falco.png
+      image: llewelyn-falco.jpg
       twitter: llewellynfalco
       linkedin: llewellyn-falco-406742
       bio: |
+          Llewellyn Falco is an independent agile coach. He is a PluralSight author, international speaker and the creator of the open source testing tool ApprovalTests( www.approvaltests.com ). He spends most of his time programming in Java and C# specializing in improving legacy code. He also volunteers creating courseware and teaching kids to program ( www.teachingkidsprogramming.org ).

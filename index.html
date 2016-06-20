@@ -1,7 +1,7 @@
 ---
 layout: base
 show-speakers: true
-show-sessions: false
+show-sessions: true
 show-schedule: false
 show-soldout: false
 event:
@@ -93,6 +93,7 @@ event:
 
 {% for session_hash in sessions %}
 {% assign session = session_hash[1] %}
+{% if session.title %}
 <div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
           {% for speaker in session.speakers %}
@@ -111,6 +112,8 @@ event:
             <p>{{session.abstract}}</p>
         </div>
       </div>
+
+{% endif %}
 {% endfor %}
     </div>
   </div>

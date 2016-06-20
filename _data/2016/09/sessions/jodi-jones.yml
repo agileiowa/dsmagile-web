@@ -8,12 +8,19 @@ speakers:
       twitter: jodimj
       linkedin: 
       bio: |
+        Jodi Jones is an agile software delivery consultant and coach for Source Allies. She enjoys working with software development teams, and focuses on improving delivery using agile techniques.  
+        <br/>
+        <br/>
+        She is a change enthusiast with a passion to make organizations and the community a great place to work for technology professionals. Jodi co-founded both the Des Moines Charity Hackathon and the Des Moines Agile conference, as well as organized internal company hackathons.
+        <br/>
+        <br/>
+        When not collaborating with her team, you will probably find her running on local trails or racing in her next marathon.
     - id: kent
       name: Kent McDonald
       image: kent-mcdonald.png
       twitter: beyondreqs
       linkedin: kentmcdonald
-      bio-b: |
+      bio: |
         Kent J. McDonald uncovers better ways of delivering value by doing it and helping others do it.  His 20 years of experience include work in business analysis, strategic planning, project management, and product development in a variety of industries including financial services, health insurance, performance marketing, human services, nonprofit, and automotive. He is active in the business analysis and agile software development communities helping people share stories about what does and does not work.  He shares those stories at beyondrequirements.com in addition to presenting at and helping organize several local and international conferences.
         <br/>
         <br/>

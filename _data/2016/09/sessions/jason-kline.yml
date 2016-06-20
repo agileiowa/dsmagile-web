@@ -1,6 +1,7 @@
 id: kline
-title: 
-abstract: 
+title: 10 Surefire ways to kill your Agile Transformation 
+abstract: | 
+    No one sets out to fail when they embark upon an Agile transformational journey.  Far too often however, the same failure patterns are visible, especially to practitioners who work with many organizations.  In this interactive session, we will discuss the top ten most common anti-patterns that threaten the success of enterprise Agility. We will also generate insights about the root causes - why these patterns emerge over and over again.  Following our session, you'll have the knowledge you'll need to diagnose these patterns, and some strategies for avoiding these ten mistakes you shouldn’t make.
 speakers:
     - id: jason-kline
       name: Jason Kline
@@ -8,3 +9,4 @@ speakers:
       twitter: jasonjkline
       linkedin: 
       bio: |
+          Jason has over 20 years experience working in the technology industry, and specializes in helping companies continuously deliver value quickly by using Lean|Agile techniques. Currently an Enterprise Agile Coach and Trainer at SolutionsIQ, Jason splits his time between instructing classes, coaching Scrum and Kanban teams, and helping organizations transform. Prior to SolutionsIQ, Jason held engineering and Agile transformational leadership roles at Salesforce, Good Technology, and Nokia.
