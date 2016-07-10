@@ -1,11 +1,30 @@
 id: davidson
-title: 
-abstract: 
+title: "Fast Food vs. Homemade Agile: Uncovering Better Ways To Deliver Software"
+abstract: |
+    Are you hungry? Eat this pre-processed, fast food hamburger!<br/>
+    Still hungry? Add a large order of French Fries!<br/>
+    <br/>
+    <br/>
+    New to iterative software? Use Scrum!<br/>
+    Tired of Scrum? Use Kanban!<br/>
+    Got lots of teams? Use SAFe!<br/>
+    <br/>
+    <br/>
+    We know a healthy diet values natural foods over the simplicity and ease of fast food. Similarly, many agile techniques are much more valuable than the simple, fast food version of software development everyone is teaching.
+    <br/>
+    <br/>
+    Over the last 15 years we started relying on other people's best practices instead of developing better ways of delivering software. We are using solutions developed for a different team, in a different decade, in a different company, in a different industry. There is such a rich tapestry of ways to build software and we are stuck eating software's version of fast food.
+    <br/>
+    <br/>
+    This interactive session discusses a bunch of different Agile techniques and when they are useful. Then we will look at just how different agile might be if we picked only the most appropriate items. Lastly, you will work with a few peers to determine if you need to swap a few techniques, or even build a personalized version of Agile, specially designed to help with your situation.
+    
 speakers:
     - id: jeffrey-davidson
       name: Jeffrey Davidson
       image: jeffrey-davidson.jpg
       twitter: JeffreyGoodReq
       linkedin: 
-      bio-b: |
-        <p>Jeffrey Davidson has been in management and consulting for almost two decades with a focus on building world-class teams. During his career, Jeffrey has served in Executive, Operational, Administrative, and IT management roles across different industries, including retail, telecommunication, and travel industries. His consulting and coaching experience has focused on operational excellence, software development, and organizational transformation. For the past five years, Jeffrey has championed agile transformation programs to bring transparency and efficiency to IT departments and development teams.</p><p>Mr. Davidson is a recognized expert and sought after speaker in agile methodologies. An engaging presenter, he is often found at conferences and professional associations across North America and Europe. Jeffrey’s ability to blend strategic thinking, powerful questions, and technical experience makes him a desired coach when companies want to turn theoretical knowledge into real-world application.</p>
+      bio: |
+        Jeffrey Davidson has been exploring the boundaries of building world-class IT teams through leadership, training, and coaching teams and executives for over 20 years. A recognized expert in building agile software development teams, he has taught thousands and consulted with multiple Fortune 100 corporations. Jeffrey’s ability to blend strategic thinking, powerful questions, and experience makes him a desired coach when companies want to turn theoretical knowledge into real-world application.
+        <br/><br/>
+        Jeffrey’s goal is simple, he wants to help you and your team achieve greatness. Does that sound so hard?

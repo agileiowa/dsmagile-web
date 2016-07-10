@@ -2,3 +2,4 @@
 	path = _site
 	url = git@github.com:agileiowa/dsmagile-web.git
 	branch = gh-pages
+    ignore = dirty
