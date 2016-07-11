@@ -1,6 +1,7 @@
 id: dahlby
-title: 
-abstract: 
+title: All Teams Are Distributed
+abstract: |
+   We hear it all the time: face-to-face communication is best. Co-located teams are more collaborative, more productive, more manageable. Pair programming is more efficient than code review. Mob programming—literally the whole team around one screen—may be even more efficient. This session won't try to argue that these statements aren't true in the moment, but rather that these optimizations achieve a local maximum. We will explore the limitations of co-location, and discuss distributed communication patterns that can help even mostly co-located teams achieve their global maximum. 
 speakers:
     - id: keith-dahlby.yml
       name: Keith Dahlby
@@ -8,3 +9,4 @@ speakers:
       twitter: dahlbyk
       linkedin:
       bio: |
+          Keith Dahlby is a father, web developer, Git enthusiast, language geek and seven-time C# MVP from Cedar Rapids, Iowa. By day he is CTO of HuBoard and Architect for the New Bohemian Innovation Collaborative; by night he once blogged with Los Techies, but now mostly argues on Twitter. His open source efforts include posh-git, a Git environment for PowerShell; and up-for-grabs.net, a site featuring open source projects looking to mentor new contributors. He's also a core contributor to LibGit2Sharp, used by GitHub for Windows and Git for Visual Studio. Keith studied Computer Engineering and Human-Computer Interaction at Iowa State University, and has spoken at developer events around the world. His talks have been described as "terrific!", "very interactive!", and "the best I've seen all hour!”.

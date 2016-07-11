@@ -1,10 +1,30 @@
 id: ottinger
-title: 
-abstract: 
+title: INTRO TO 4 VALUES OF MODERN AGILE
+abstract: | 
+    We have at the seen teams evolve in line with original agile principles and modern technologies to be more exciting, more capable, more helpful, and ever more lean. 
+    <br/>
+    <br/>
+    At the same time, other organizations have evolved their agile practice away from the original values and principles through a series of compromises, until it has become a lifeless set of formalities.  
+    <br/>
+    <br/>
+    We realized that the most deeply, impressively agile teams we know seem to have connected on four values.
+    <br/>
+    <br/>
+    They make people awesome, deliver value continuously, and experiment and learn rapidly. These challenging changes are only possible because of the safety that permeates their practices and culture. 
+    <br/>
+    <br/>
+    Come for a re-think of agility and a challenge that may transform your experience of software development. 
 speakers:
     - id: tim-ottinger
       name: Tim Ottinger
       image: tim-ottinger.jpg 
       twitter: tottinge
       linkedin: 
-      bio: |
+      bio: | 
+        Tim is a long-time programmer (since 1979), reviewer, speaker, writer. He has been active in many of the big changes in software over the past 36 years (including Design Patterns, Object-Oriented Design, and Agile software development).
+        <br/><br/>
+        In addition to his contributions in "Clean Code" and "Agile In A Flash", Tim's articles appeared in the C++ Journal, Pragmatic Bookshelf, InfoQ, CIO, and SmartBear.
+        <br/><br/>
+        Tim is one of the crew of experts at Industrial Logic, a premier agile consultancy, eLearning vendor, and thought leader. Here he joins with other industry experts to help people develop the skills that will make them awesome.
+        <br/><br/>
+        Tim muses about of his experiences and ideas on the Agile Otter blog and the Industrial Logic company blog.

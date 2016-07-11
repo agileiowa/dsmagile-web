@@ -1,6 +1,21 @@
 id: perri
-title: 
-abstract: 
+title: Designed to Learn
+abstract: | 
+    Over the past few years there’s been a push in the product development world to “make products that people love”. While many companies focus on having the best design and the greatest experience, they are still missing the most important step in product development – learning about their customers.
+    <br/>
+    <br/>
+    The popularity of Agile and Lean has sparked discussions about getting software out faster to users. At the core of this has been the Minimum Viable Product. Unfortunately, many people still do not understand the MVP. Some see it as a way to release a product faster. Others are scared of it, viewing it as a way to put broken code on your site and ruin products.
+    <br/>
+    <br/>
+    The sole purpose of Minimum Viable Product is to learn about your customers. This step that has been so overlooked and yet it is the most essential part to creating a product your customers will love. The more information you can uncover through experimentation, the more certainty there is about building the right thing. In this talk, Melissa will go over how to design the most effective product experimentations to learn about your customer, their problems, and how to solve them. She’ll explain how to get the rest of the organization on board with this method of testing, and how to incorporate it into overall Product Strategy.
+    <br/>
+    <br/>
+    Key Learnings
+    <br/>
+    What are the misconceptions of an MVP<br/>
+    What the goal of an MVP really is<br/>
+    How to do effective product experimentation<br/>
+    How product leaders need to change their styles to coach experimental teams<br/>
 speakers:
     - id: melissa-perri
       name: Melissa Perri
@@ -8,3 +23,4 @@ speakers:
       twitter: lissijean
       linkedin: melissajeanperri 
       bio: |
+          Melissa Perri is a product consultant and speaker based in New York City. As the CEO of ProdUX Labs, Melissa does strategy and training for product management teams globally. As a practitioner and a coach, Melissa enjoys finding the best processes for her clients while tackling their toughest product problems with the team. She is currently writing a book called “The Build Trap” and launching a product management school online.

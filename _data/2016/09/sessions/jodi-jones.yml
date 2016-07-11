@@ -1,6 +1,15 @@
 id: jones
-title: 
-abstract: |
+title: What do Scrum Masters Really Do? And Do We Need Them?
+abstract: | 
+    The Scrum Master role is a foundational concept of Scrum, yet like everything else, the role and it’s value should not be fixed. As with everything else related to agile, the nature of the Scrum Master role, and whether it is needed or all, depends a great deal on context.  As teams discover this, it leads to some common questions:
+    
+    <li>What do Scrum Masters Really Do?</li>
+    <li>Do we even need Scrum Masters?</li>
+    <br/>
+    Join Jodi and Kent as we examine the Scrum Master role and attempt to answer the above questions.  We’ll share our experiences and give you a chance to share your perspectives with each other. By the end of the session, you'll have more insight into the Scrum Master role and how it applies (or not) to your situation.
+    <br/>
+    <br/>
+    After all, the only consistent answer to the above questions is “it depends”.
 speakers:
     - id: jodi-jones
       name: Jodi Jones
@@ -17,7 +26,7 @@ speakers:
         When not collaborating with her team, you will probably find her running on local trails or racing in her next marathon.
     - id: kent
       name: Kent McDonald
-      image: kent-mcdonald.png
+      image: kent-mcdonald.jpg
       twitter: beyondreqs
       linkedin: kentmcdonald
       bio: |
