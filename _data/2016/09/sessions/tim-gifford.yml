@@ -1,5 +1,5 @@
 id: unicorn
-title: 
+title-b: Continous Delivery on Day 1
 abstract: 
 speakers:
     - id: tim-gifford
@@ -7,12 +7,7 @@ speakers:
       image: tim-gifford.jpg
       twitter: timgifford
       linkedin: timgifford
-      bio-b: |
-        Tim Gifford is a software craftsman in West Des Moines, Ia. where he provides training, mentoring, software development and Agile consulting to Central Iowa businesses.
+      bio: |
+        Tim Gifford is a software delivery consultant specializing in Extreme Programming, Lean, Agile and DevOps. He has been producing software with teams for over 20 years. He’s been involved in projects ranging from small websites to scaled Agile adoptions at Fortune 100 companies. In 2001, he created one of the first social networking sites without realizing it.
         <br/><br/>
         As a Software Delivery Coach, Tim Gifford works with companies to transform their software from a liability and cost center to an asset and competitive advantage.
-        <br/><br/>
-        Tim remains active in the Des Moines technology community having co-founded Agile Iowa, a group devoted to the promotion and discussion of agile methodologies in the state of Iowa, and by serving on the executive board of the Iowa .NET User Group (IADNUG).
-        <br/><br/>
-        Specialties: Systems Thinking, Theory of Constraints, Agile/Lean Software Development, Extreme Programming, Continuous Delivery, DevOps, Kanban, Test Driven Development, Acceptance Test Driven Development, Behavior Driven Development, SpecFlow, Cucumber, FitNesse, Pair Programming, C#, Java 
-
