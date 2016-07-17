@@ -76,6 +76,8 @@ namespace :site do
       system "git push origin gh-pages"
     end
 
+    system "git submodule update"
+
     # system "git st"
     # system "git add ."
     # message = "Site published at #{Time.now.utc}"
