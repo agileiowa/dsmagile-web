@@ -1,6 +1,7 @@
 id: chickering
-title: 
-abstract: 
+title: Modernizing Agile
+abstract: |
+    We are not practicing the same Agile we did 15 years ago. Agile at scale is mainstream.  Thousands of companies are actively seeking information on how to scale agile effectively.  There are many frameworks and techniques but they all boil down to a set of common principles.  Agile done well involves teams, programs and portfolios in a way that aligns strategy and execution.  It's important to apply a proper team foundation to build things right but without agile applied at the program and portfolio level all we may end up with is the wrong things built faster.  In this talk Julie will discuss how to effectively apply Agile to your portfolios and programs to ensure you are also building the right things.  Learn to create value, not just process.
 speakers:
     - id: julie-chickering
       name: Julie Chickering
@@ -8,3 +9,7 @@ speakers:
       twitter: 
       linkedin: juliechickering
       bio: |
+        Julie Chickering, Agile Advisor & Strategic Solutions Consultant, Agile Coach, Certified Scrum Trainer (CST), Certified Scaled Agile Program Consultant (SAFe® SPC), PMP, PMI-ACP, Accredited Kanban Trainer (AKT)
+        <br/>
+        <br/>
+        Julie believes that Agile practices are packed with potential — to enable business agility, and breakthrough results. A passion to empower customers to realize that potential is what brought her to Rally in 2008. She’s amassed a strong track record of helping organizations of all sizes in various industries successfully execute Agile transformations. Julie brings real-world experience working with people at all levels — executive, program, and team — to adopt and roll out realistic Agile strategies organization-wide. 
