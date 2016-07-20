@@ -1,6 +1,13 @@
 id: carson
-title: 
-abstract: 
+title: Demos that Don't Suck
+abstract: | 
+    Are you dreading your demo days? Have you seen more slides about 'working' software than you thought possible? Is everyone just checking their emails?
+    <br/> 
+    <br/> 
+    Demos can and should be a valuable part of your projects feedback loop. They can let you know when you've discovered something great. They can let you know when you went too far into a bad idea. They can let you know just how far away you might be from something your customers need.
+    <br/> 
+    <br/> 
+    How often are demos something that add all that value? What about even adding any value? This session will give you the tools you need to make demos that don't suck. Learn how to spot bad demos, what key things you need in your demos, and even a bit about how to make demos that can wow your stakeholders.
 speakers:
     - id: joshhua-carson
       name: Joshua Carson
@@ -8,3 +15,7 @@ speakers:
       twitter: joshuajcarson
       linkedin: joshua-carson-88456359
       bio: |
+          Joshua Carson is the API Evangelist for John Deere. He has worked with software teams for eight years. He focuses on how to learn as quickly as possible, getting different teams required to make software communicate with each other, as well as finding the root causes to whatever happens to be going on.
+          <br/>
+          <br/>
+          Joshua has been practicing various forms of Agile development for the past six years. As either a developer, tester, customer support, project manager, or any of the other roles required to make a working product, he has seen a variety of software projects from a variety of different views. He has seen how just getting the right people in the right place can make all the difference. His focus is on getting the people on the ground what they need to get the job done with as little overhead as possible.
