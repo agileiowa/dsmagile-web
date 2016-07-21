@@ -99,6 +99,9 @@ namespace :site do
           `git commit -m #{message.inspect}`
           # system "git push origin gh-pages"
       end
+
+      #`git add .`
+      #`git commit -m "update _site for publish"`
       #system "git submodule update"
   end
 end
