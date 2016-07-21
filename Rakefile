@@ -66,7 +66,6 @@ namespace :site do
       system "git submodule update --init"
 
       Dir.chdir("_site/") do
-          puts "in the _site folder"
           `git status`
           `git checkout gh-pages`
       end 
@@ -86,5 +85,6 @@ namespace :site do
 
       `git add .`
       `git commit -m "update _site for publish"`
+      `git push origin master`
   end
 end
