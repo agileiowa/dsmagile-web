@@ -40,7 +40,6 @@ namespace :site do
   end
 
   task :check do
-      puts "start the check"
       if (has_unpushed_commits())
         puts "\e[31mYou have un-pushed changes. NO PUBLISH FOR YOU!!\e[0m"
         exit 0
@@ -62,21 +61,6 @@ namespace :site do
     (current_branch == 'master')
   end
 
-  desc 'spike'
-  task :test do
-      system "git submodule update --init"
-
-      FileUtils.rm_r Dir.glob('_site/*')
-      Rake::Task['site:generate'].invoke
-
-      #Dir.chdir("_site/")do
-          #system "git add ."
-          #message = "Site updated at #{Time.now.utc}"
-          #system "git commit -m #{message.inspect}"
-          #system "git branch -f gh-pages"
-      #end
-  end
-
   desc "Generate and publish blog to gh-pages"
   task :publish => [:check] do
       system "git submodule update --init"
@@ -87,9 +71,9 @@ namespace :site do
           `git checkout gh-pages`
       end 
 
-      #FileUtils.rm_r Dir.glob('_site/*')
+      FileUtils.rm_r Dir.glob('_site/*')
 
-      #Rake::Task['site:generate'].invoke
+      Rake::Task['site:generate'].invoke
 
       Dir.chdir("_site/") do
           puts "adding them all"
@@ -97,11 +81,10 @@ namespace :site do
           `git add .`
           message = "Site updated at #{Time.now.utc}"
           `git commit -m #{message.inspect}`
-          # system "git push origin gh-pages"
+          system "git push origin gh-pages"
       end
 
-      #`git add .`
-      #`git commit -m "update _site for publish"`
-      #system "git submodule update"
+      `git add .`
+      `git commit -m "update _site for publish"`
   end
 end
