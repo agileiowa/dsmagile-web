@@ -61,37 +61,38 @@ namespace :site do
     (current_branch == 'master')
   end
 
+  desc 'spike'
+  task :test do
+      system "git submodule update --init"
+
+      FileUtils.rm_r Dir.glob('_site/*')
+      Rake::Task['site:generate'].invoke
+
+      #Dir.chdir("_site/")do
+          #system "git add ."
+          #message = "Site updated at #{Time.now.utc}"
+          #system "git commit -m #{message.inspect}"
+          #system "git branch -f gh-pages"
+      #end
+  end
+
   desc "Generate and publish blog to gh-pages"
   task :publish => [:check] do
+      system "git submodule update --init"
+      Dir.chdir("_site/")do
+          system "git checkout gh-pages"
+      end 
 
-    system "git submodule update --init"
-    FileUtils.rm_r Dir.glob('_site/*')
-    
-    Rake::Task['site:generate'].invoke
-    Dir.chdir("_site/")do
-      system "git checkout gh-pages"
-      system "git add ."
-      message = "Site updated at #{Time.now.utc}"
-      system "git commit -m #{message.inspect}"
-      system "git push origin gh-pages"
-    end
+      FileUtils.rm_r Dir.glob('_site/*')
 
-    system "git submodule update"
+      Rake::Task['site:generate'].invoke
 
-    # system "git st"
-    # system "git add ."
-    # message = "Site published at #{Time.now.utc}"
-    # system "git commit -m #{message.inspect}"
-
-    # Dir.mktmpdir do |tmp|
-    #   cp_r "_site/.", tmp
-    #   Dir.chdir tmp
-    #   system "git init"
-    #   system "git add ."
-    #   message = "Site updated at #{Time.now.utc}"
-    #   system "git commit -m #{message.inspect}"
-    #   system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
-    #   system "git push origin master:refs/heads/gh-pages --force"
-    # end
+      Dir.chdir("_site/")do
+          system "git add ."
+          message = "Site updated at #{Time.now.utc}"
+          system "git commit -m #{message.inspect}"
+          # system "git push origin gh-pages"
+      end
+      system "git submodule update"
   end
 end
