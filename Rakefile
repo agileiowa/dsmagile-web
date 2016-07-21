@@ -75,7 +75,6 @@ namespace :site do
       Rake::Task['site:generate'].invoke
 
       Dir.chdir("_site/") do
-          puts "adding them all"
           `git status`
           `git add .`
           message = "Site updated at #{Time.now.utc}"
