@@ -37,7 +37,12 @@ event:
       </div>
       <p>Open Space and mixer to follow at the venue</p>
         {% if page.event.eventbriteid %}
-      <a class="btn btn-success btn-large" href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}">Register</a>
+      <a class="btn btn-success btn-large" href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}">
+         {% if page.show-soldout == true %}
+            Waitlist
+         {% else %}
+            Register
+         {% endif %}</a>
         {% endif %}
       <br/>
       <br/>
@@ -156,10 +161,18 @@ event:
             <td class="col-time">{{ slot.time }}</td>
         {% for session in slot.sessions %}
           <td>
-              <a href="#{{session.id}}" class="smoothScroll">{{ sessions[session.id].title }}</a>
-              {% for speaker in sessions[session.id].speakers %}
-                <div>{{ speaker.name }}</div>
-              {% endfor %}
+              <div class="col-lg-4">
+                  {% for speaker in sessions[session.id].speakers %}
+                  <a href="#{{speaker.id}}" class="smoothScroll">
+                      <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+                  </a>
+                  <h4>{{speaker.name}}</h4>
+                  {% endfor %}
+              </div>
+              <div class="col-lg-8">
+                <a href="#{{ sessions[session.id].id }}" class="smoothScroll">{{ sessions[session.id].title }}</a>
+              </div>
+              
           </td>
         {% endfor %}
         </tr>

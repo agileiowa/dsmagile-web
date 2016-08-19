@@ -42,7 +42,12 @@
         </ul>
         {% if page.event.eventbriteid %}
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}" class="btn btn-outline">Register</a></li>
+            <li><a href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}" class="btn btn-outline">
+         {% if page.show-soldout == true %}
+            Waitlist
+         {% else %}
+            Register
+         {% endif %}</a></li>
         </ul>
         {% endif %}
         </div><!--/.nav-collapse -->

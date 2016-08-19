@@ -1,8 +1,8 @@
 - time: 8:00 - 9:00
-  break: Checkin and Registration - Ballroom B 
+  break: Check-in and Registration - Ballroom B 
 
 - time: 9:00 - 9:30  
-  break: Opening - Announcements, Speakers Introduce themselves - Ballroom B
+  break: Opening - Announcements, Speaker Introductions - Ballroom B
 
 - time: 9:30 - 9:45
   break: Break
@@ -12,7 +12,7 @@
       - id: jason-kline 
       - id: keith-dahlby
       - id: melissa-perri 
-      - id: jodi-jone 
+      - id: jodi-jones 
 - time: 10:45 - 11:00
   break: Break
 
@@ -47,4 +47,4 @@
   break: |
       Open Space - Ballroom B 
       <br/>
-      Networking Session Drinks and Tapas - BallRoom B
+      Networking, Drinks and Tapas - BallRoom B
