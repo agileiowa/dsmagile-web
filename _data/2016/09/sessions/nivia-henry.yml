@@ -1,10 +1,18 @@
 id: henry
-title: 
-abstract: 
+title: First You Build the Team, Then They Build the Thing
+abstract: |
+    Behind every awesome product is a team who trusts one another and works well together. This is the positive case of Conway’s Law, in which a system is a reflection of the organization that built it. At the other extreme is a system built by a team whose members are distrustful, do not collaborate, and are ultimately dysfunctional. The resulting product will inevitably fail its customers. Adding and revamping features to such a product would be dressing up a rotten egg. 
+    <br/> 
+    <br/> 
+    Rather, we must form a healthy team in order to have a healthy product. How do we do that? How do we find the “right” people; bring them together and ensure the outcome is a great product? 
+    <br/> 
+    <br/> 
+    In this talk, we’ll explore 5 (not so easy) tips about doing just that. We’ll inject thinking from past and present leaders; and leverage Lean & Agile principles, to build and sustain a healthy team.
 speakers:
     - id: nivia-henry
       name: Nivia Henry
       image: nivia-henry.jpg
       twitter: Lanooba
-      linkedin:
+      linkedin: https://linkedin.com/in/nivia
       bio: |
+          A technologist with 15 years of experience executing strategy and delivering high quality products. Career has included product management; program/project execution; people leadership; agile coaching; and enterprise agile transformations. Also a proud participant and contributor to the technology community; including organizing meet-ups and conferences; speaking at local and regional conferences; and guest blogging.
