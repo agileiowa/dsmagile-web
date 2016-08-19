@@ -1,0 +1,50 @@
+- time: 8:00 - 9:00
+  break: Checkin and Registration - Ballroom B 
+
+- time: 9:00 - 9:30  
+  break: Opening - Announcements, Speakers Introduce themselves - Ballroom B
+
+- time: 9:30 - 9:45
+  break: Break
+            
+- time: 9:45 - 10:45
+  sessions:
+      - id: jason-kline 
+      - id: keith-dahlby
+      - id: melissa-perri 
+      - id: jodi-jone 
+- time: 10:45 - 11:00
+  break: Break
+
+- time: 11:00 - 12:00
+  sessions:
+      - id: julie-chickering
+      - id: llewelyn-falco
+      - id: scott-sehlhorst
+      - id: brandon-carlson
+
+- time: 12:00 - 1:00            
+  break: Lunch (Provided) - Ballroom B
+
+- time: 1:00 - 2:00
+  sessions:
+      - id: julie-urban
+      - id: zach-vanmeter
+      - id: jeffrey-davidson
+      - id: josh-carson
+
+- time: 2:00 - 2:15
+  break: Break
+       
+- time: 2:15 - 3:15
+  sessions:
+      - id: tim-ottinger
+      - id: tim-gifford
+      - id: matt-heusser
+      - id: nivia-henry
+
+- time: 3:15 - 5:00
+  break: |
+      Open Space - Ballroom B 
+      <br/>
+      Networking Session Drinks and Tapas - BallRoom B

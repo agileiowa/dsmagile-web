@@ -2,7 +2,7 @@
 layout: base
 show-speakers: true
 show-sessions: true
-show-schedule: false
+show-schedule: true
 show-soldout: true
 event:
     name: dsmAgile
@@ -138,10 +138,10 @@ event:
         <thead>
           <tr>
             <th class="col-time">Schedule</th>
-            <th>Room A</th>
-            <th>Room B</th>
-            <th>Room C</th>
-            <th>Room D</th>
+            <th>Room 302/303</th>
+            <th>Room 304/305</th>
+            <th>Room 306/307</th>
+            <th>Room 308/309</th>
           </tr>
         </thead>
         <tbody>
@@ -156,8 +156,10 @@ event:
             <td class="col-time">{{ slot.time }}</td>
         {% for session in slot.sessions %}
           <td>
-              <a href="#{{session.id}}" class="smoothScroll">{{ session.title }}</a>
-              <div>{{ session.name }}</div>
+              <a href="#{{session.id}}" class="smoothScroll">{{ sessions[session.id].title }}</a>
+              {% for speaker in sessions[session.id].speakers %}
+                <div>{{ speaker.name }}</div>
+              {% endfor %}
           </td>
         {% endfor %}
         </tr>
