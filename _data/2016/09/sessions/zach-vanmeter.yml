@@ -17,7 +17,8 @@ speakers:
 
     - id: kevin-knowles
       name: Kevin Knowles
-      image: unknown.jpg
-      twitter: 
+      image: kevin_knowles.png 
+      twitter: kvnknowles 
       linkedin: 
-      bio: |
+      bio: | 
+          Kevin is a software engineering consultant for Pillar Technology in Des Moines, IA.  He has enjoyed how much Pairing, TDD, CI and other Extreme Programming practices has made developing software enjoyable and exciting.  Continuing to learn different, new, old, crazy, simple ways to enable quality software development and deliver business value quickly is a major passion of his.
