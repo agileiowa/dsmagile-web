@@ -1,14 +1,19 @@
 id: zach
-title: 
+title: "Pair Programming: Tales from the Trenches" 
 abstract: | 
+    Pair programming often recommended as a fix to software projects, but why send two people to do the job of one? We'll talk about why pair programming is not a scam to double the cost of a project and deliver half the value.
+    <br/> 
+    <br/> 
+    Zach and Kevin work daily in an agile environment that embraces the practice of pairing. We'll share the value that pairing brings to the business, the team, and the individual. We'll discuss the right and wrong ways to implement pairing and provide pragmatic ways you can make it work for your organization. We'll share our lessons learned from real life projects and experiences and what can be done to overcome common issues that affect the success of pairing. You will be able to walk away with answers to common questions and solutions to ensure pairing is successful in your organization.
 
 speakers:
     - id: zach-vanmeter
       name: Zach VanMeter
-      image: unknown.jpg
+      image: zach-vanmeter.jpg
       twitter: 
       linkedin: 
-      bio: |
+      bio: | 
+          Zach VanMeter is a software engineering consultant for Pillar Technology in Des Moines, Iowa.  Industry experience includes the great DSM trifecta of insurance, banking, and agriculture.  His normal work day is heavily influenced by both Scrum and Extreme Programming (XP) practices.  Zach's career started in business analysis and his desire to be closer to the nuts and bolts of value delivery led to his career in software development.
 
     - id: kevin-knowles
       name: Kevin Knowles
