@@ -1,0 +1,17 @@
+id: doc
+title: 
+abstract: |
+speakers:
+    - id: doc-norton
+      name: Doc Norton
+      image: doc-norton.png
+      twitter: DocOnDev
+      linkedin:  
+      bio: |
+        Once a dedicated code slinger, Doc has turned his energy toward helping teams, departments, and companies work better together in the pursuit of better software.
+        <br/><br/>
+        An agile practitioner and coach since 1999, Doc's 20-plus years of software development experience have provided him with exposure to a wide range of topics. Doc declares expertise in no single language or methodology and is immediately suspicious of anyone who declares such expertise.  
+        <br/><br/>
+        A frequent speaker, Doc is passionate about helping others become better developers, working with teams to improve delivery, and building great organizations. 
+        <br/><br/>
+        http://www.docondev.com/
