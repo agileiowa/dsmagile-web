@@ -1,12 +1,27 @@
 id: diane
-title: 
+title: Stop Building Useless Software
 abstract: |
+    Useless    \ˈyüs-ləs\
+    use·less&#58 not fulfilling or not expected to achieve the intended purpose or desired outcome.
+    [Synonyms&#58 futile, to no avail, (in) vain, pointless, to no purpose, hopeless, ineffectual, ineffective, to no effect, fruitless, unprofitable, profitless, unproductive]
+    <br/>
+    <br/>
+    If you want to stop building useless software, then you have to start understanding your customers.  Unfortunately there’s no magic trick for reading their minds. But there is a simple technique that can help you gain insights and build empathy for them.
+    <br/>
+    <br/>
+    Empathy mapping is a simple activity for your team, stakeholders and anyone else who is responsible for delivering products and services. It allows you to collectively explore what your customers see, hear, say & do, as well as consider what they think and feel. This leads to insights about their pain and potential wants which are the keys to building more useful software.
+    <br/>
+    <br/>
+    In this session, Diane guides you through building an empathy map, showing you how to use silent brainstorming to encourage everyone to contribute. You will see, first-hand, how easy it is to work collaboratively to create a shared understanding of the customer. And that is the first step to start building software that customers find useful. 
+
+
 speakers:
     - id: diane-zajac-woodie 
       name: Diane Zajac-Woodie 
       image: diane-zajac-woodie.jpg
       twitter: agilesquirrel
       bio: | 
-        Diane Zajac-Woodie (@agilesquirrel) has spent more than six years redefining the business analyst role as more than a requirements dictator. Through open and honest conversations, Diane guides her business partners toward creative solutions that solve problems and eliminate waste. She shares this same approach with her technical teams, facilitating communication, cooperation, and continuous learning to ensure success. Diane craves knowledge almost as much as chocolate and could make question-asking an Olympic sport.
-        <br/><br/>
-        Now an agile coach, Diane's recent passion is to free those mired in the status quo even if she has to pull them out one at a time. Diane's alter ego makes her thoughts transparent on her blog, <a href="http://agilesquirrel.blogspot.com">AgileSquirrel</a>. For more serious stuff, go to <a href="http://www.greenjeansconsulting.com/">www.greenjeansconsulting.com</a>.
+        Several years ago, Diane traded a career in corporate America for a life of coaching and she has never looked back. She now uses her 13 years of experience to help groups, from Fortune 50 companies to the U.S. Government, transform their people into high-performing teams. Drawing from kanban, systems thinking and psychology, Diane teaches teams to practically apply an agile mindset, and in the process, find joy in their work again.
+        <br/>
+        <br/>
+        As a frequent conference presenter, Diane enjoys connecting with others who share her passion for continuous learning. She’s been involved behind the scenes at Agile 2014-2016 and returns for Agile 2017 as the People Program Chair. Her alter ego makes her thoughts transparent at http://agilesquirrel.blogspot.com/.

@@ -1,6 +1,8 @@
 id: doc
-title: 
+title: The Building Blocks of a Creative Culture
 abstract: |
+    Much of what we've learned about management and motivation isn't necessarily wrong, it's just inappropriate and ineffective for knowledge work. Knowledge work requires creativity and adaptability. To create a truly impactful knowledge work environment, you need to use appropriate leadership styles and create an environment that allows people to achieve their highest potential. Doc takes a look at types of work, the management styles that work best for them, and the qualities necessary to create a high-performing creative culture.
+    
 speakers:
     - id: doc-norton
       name: Doc Norton
@@ -8,10 +10,4 @@ speakers:
       twitter: DocOnDev
       linkedin:  
       bio: |
-        Once a dedicated code slinger, Doc has turned his energy toward helping teams, departments, and companies work better together in the pursuit of better software.
-        <br/><br/>
-        An agile practitioner and coach since 1999, Doc's 20-plus years of software development experience have provided him with exposure to a wide range of topics. Doc declares expertise in no single language or methodology and is immediately suspicious of anyone who declares such expertise.  
-        <br/><br/>
-        A frequent speaker, Doc is passionate about helping others become better developers, working with teams to improve delivery, and building great organizations. 
-        <br/><br/>
-        http://www.docondev.com/
+        Doc is passionate about working with teams to improve delivery and building great organizations. Once a dedicated code slinger, Doc has turned his energy toward helping teams, departments, and companies work better together in the pursuit of better software. Working with a wide range of companies such as Groupon, Nationwide Insurance, and Belly, Doc has applied tenants of agile, lean, systems thinking, and host leadership to develop highly effective cultures and drastically improve their ability to deliver valuable software and products.

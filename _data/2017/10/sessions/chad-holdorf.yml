@@ -1,0 +1,18 @@
+id: big-product
+title: Big Company Product Management
+link: 
+abstract: |
+    Product Managers are the CEO of the company, and they can make or break the company. However, most times we are not the CEO of the company, but we are the “owner” of some part of the overall product the customer uses. But what does the mini CEO do? What should we focus on each day? What are the skills we need to become closer to the CEO? 
+    <br/><br/>
+    Follow Chad on his journey as an Agile Coach, being the co-owner and co-manager of his wife’s cupcake business, and leading a team of product owners at at Salesforce. Chad will share how each of these roles have all helped him understand the role of a Product Manager much better and how to succeed at it. Pick up top three habits you can do each day to stay on top of your PO game, the top four skills you should have or work toward, and the metrics you should track as the “owner” of your product.
+      
+speakers:
+    - id: chad-holdorf
+      name: Chad Holdorf
+      image: chad-holdorf.jpg
+      twitter: chadholdorf
+      linkedin: chadholdorf 
+      bio: |
+        Chad Holdorf is Director of Product Management at the &#35;2 most innovative company and the &#35;8 best place place to work according to Forbes magazine: Salesforce. Chad leads a team of product managers focused on building the platform, tools, and services that power the core of the Salesforce product. In his three years at Salesforce, Chad has released a JIRA competitor called Salesforce Agile Accelerator, managed the test framework used by 2000+ developers, and led the effort to build a microservices testing framework.
+        <br/><br/>
+        Originally from Des Moines, Iowa, and now based out of San Francisco, Chad has previously worked at John Deere as a Developer, Program Manager, Release Manager, and best of all, an Agile Coach. You may have also run into him at Jordan Creek Mall where he helped his wife with her cupcake business, <a href="http://LiveLoveBake.com" target="_blank">LiveLoveBake.com</a>. Chad is excited to be back in Iowa and can’t wait to have some sweet corn and steak! 

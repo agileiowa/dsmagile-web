@@ -1,0 +1,18 @@
+id: agile-numbers
+title: Examples of Agile Numbers and Why They Matter for an Agile Journey?
+link: 
+abstract: |
+    When I first saw the infamous Deloitte Agile Landscape diagram, I wondered how did agile get so complicated. The second thought was a question: ‘how can I inspect those techniques and practices and choose the right ones for my team?’. 
+    <br/><br/>
+    In this crowded landscape, data is probably our best shot at distinguishing the real deal from the rest. With hard data and numbers, we can compare one practice to another and tell if an approach will to yield the performance improvement our teams want. In this session I will be talking about why these “agile numbers” are essential and showcase one report in particular that has such numbers; 2017 State of DevOps Report. 
+    <br/><br/>
+    The 2017 State of DevOps Report is compiled by Puppet and DORA from 27,000 survey responses. The annual report started in 2013 with focus on DevOps but quickly branched into other areas of IT/software delivery.
+      
+speakers:
+    - id: akrem-saed 
+      name: Akrem Saed
+      image: akrem-saed.jpg
+      twitter: AkremSaed
+      linkedin: AkremSaed 
+      bio: |
+        Akrem would describe himself as a “technologist” interested in the different facets of software delivery. Those facets include writing code, automating infrastructure, continuous integration, continuous delivery, agile practices, and figuring out what makes high-performing teams come into existence from a collection of individuals. Like many developers, he got his first taste of professional programming with PHP and Java and the latter still has a special place in his heart even after branching into C#, Scala, Groovy and Python. His latest adventures are in AWS-land wearing the DevOps hat. Akrem currently plies his trade with Source Allies, Inc out of Urbandale, IA which is dedicated to helping its partners grow and become more productive through creative and open technology solutions. 
