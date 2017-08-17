@@ -2,7 +2,7 @@
 layout: base
 show-speakers: true
 show-sessions: true
-show-schedule: false
+show-schedule: true
 show-soldout: false
 event:
     name: dsmAgile
@@ -143,10 +143,10 @@ event:
         <thead>
           <tr>
             <th class="col-time">Schedule</th>
-            <th>Room 302/303</th>
-            <th>Room 304/305</th>
-            <th>Room 306/307</th>
-            <th>Room 308/309</th>
+            <th>Room A</th>
+            <th>Room B</th>
+            <th>Room C</th>
+            <th>Room D</th>
           </tr>
         </thead>
         <tbody>
@@ -172,7 +172,7 @@ event:
               <div class="col-lg-8">
                 <a href="#{{ sessions[session.id].id }}" class="smoothScroll">{{ sessions[session.id].title }}</a>
               </div>
-              
+              TBD 
           </td>
         {% endfor %}
         </tr>

@@ -1,7 +1,17 @@
 id: jeff-patton
-title: 
+title: "Agile 2.0: Balancing Continuous Discovery and Delivery"
 link: 
 abstract: |
+    Common Agile practice leaves out a critical piece of work. This talk is about how teams are working to put it back.
+    <br/>
+    <br/>
+    If Agile development is working in your organization, you’ve probably seen that you can get pretty high quality software out predictably – every two weeks or so. But, you’ve probably noticed that choosing exactly what to build is a problem. And, that even when the choice gets made, you often still end up building software that doesn’t get used.   
+    <br/>
+    <br/>
+    Some organizations, maybe yours, have started to include discovery approaches. Processes like Lean Startup, Lean UX, and Design Thinking help us identify problems and solutions, and then test them before fully investing in them. But, “discovery” can be relegated to the phase ahead of development that everyone is waiting for and that only a few people get to participate in.
+    <br/>
+    <br/>
+    Learn how contemporary teams combine both discovery and delivery work within the same team. Jeff will share concepts and examples of teams making this messy process work.
 speakers:
     - id: jeff-patton
       name: Jeff Patton
