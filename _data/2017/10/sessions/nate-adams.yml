@@ -8,8 +8,14 @@ abstract: |
     After exploring some of these concepts (they're features, not bugs, am I right?) we'll talk about why thinking in increments and iterations, and using empirical decision making can help us be more awesome.
 speakers:
     - id: nate-adams
-      name: Nate adams
-      image: unknown.jpg
-      twitter: 
-      linkedin: 
+      name: Nate Adams
+      image: nate-adams.jpg
+      twitter: psiberknetic
+      linkedin: psiberknetic
       bio: | 
+        Nate has worked professionally in the IT industry for nearly 20 years developing software and mentoring and leading teams in a wide range of environments from small companies with dozens of employees to large global enterprises with over 20,000 employees. Nate currently brings this experience with him to NewBoCo in Cedar Rapids as he helps with their mission to make the Iowa Corridor an awesome place to work in tech.
+        <br/><br/>
+        As a software developer, Nate has written code and developed architecture for all aspects of systems from the UI through the middleware and to the back-end. Nate has also given many talks for user groups in the midwest on a broad range of technology topics.
+        <br/><br/>
+        As an agile enthusiast and coach, Nate has developed and coached agile teams using a broad array of methodologies.  Nate has taught the Intro to Agile course at the University of Iowa Tippie College of Business as well as an agile certificate through Kirkwood Community College.
+          
