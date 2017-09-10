@@ -1,0 +1,20 @@
+id: talk 
+title: This is the talk about “the talk” that nobody wants to talk about.
+abstract: |
+    The growing emphasis on "Individuals and Interactions" yields tremendous rewards, but not without risk.  Teams who work together increasingly find themselves in situations where they NEED to have sensitive and high risk conversations, but don't always know how to approach those discussions.  
+    <br/>
+    <br/>
+    Everyone knows about some of the biggest challenges that face a team.  They are also aware of the many ways the corrective conversation that can go awry.
+    <br/>
+    <br/>
+    These conversations are often indefinitely delayed.  Opportunities for growth are missed and resentment grows.  
+    <br/>
+    <br/>
+    Attend this session to learn how to be the agent of change your team needs with techniques and practices to help you master crucial conversations.
+speakers:
+    - id: dustin-thostenson
+      name: Dustin Thostenson
+      image: dustin-thostenson.png
+      twitter: dustinson
+      bio: | 
+         Dustin Thostenson is an independent consultant, leading Delta3Consulting. He has been a developer, mentor, trainer and agile coach for almost 2 decades.  His passion lies in helping people grow and teams deliver. To keep it interesting he helps lead the Iowa .NET User Group and volunteers in Central Iowa. To keep it real he spends time with his wife and 4 kids. To keep it random he tweets @dustinson 
