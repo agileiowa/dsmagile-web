@@ -1,6 +1,7 @@
-id: 
-title: 
+id: tadd-hatch-talk
+title: A Pirate Looks at Forty.  Although, I’m Older than 40
 abstract: |
+  Jimmy Buffett taught us about the sadness of being a pirate, 200 hundred years too late.  But, what if everything that pirate does now is the same as what we do in our agile software development world?  Take journey through 15+ years of building software, smuggling and other generally pirate-y things.  See the things that have worked and did not work in those years and how a group of people have settled into a comfort zone in and out of agile ideas.
 speakers:
     - id: tadd-hatch
       name: Tadd Hatch

@@ -64,24 +64,26 @@ event:
 {% for session_hash in sessions %}
     {% assign session = session_hash[1] %}
     {% for speaker in session.speakers %}
-    <div class="col-md-6 centered" id="{{speaker.id}}">
-            <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
-            <br>
-            <h4><b>{{speaker.name}}</b></h4>
-            {% if speaker.twitter %}
-            <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
-              <i class="fa fa-twitter"></i>
-            </a>
-            {% endif %}
+      {% if speaker.id != "tbd"%}
+        <div class="col-md-6 centered" id="{{speaker.id}}">
+              <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
+              <br>
+              <h4><b>{{speaker.name}}</b></h4>
+              {% if speaker.twitter %}
+              <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
+                <i class="fa fa-twitter"></i>
+              </a>
+              {% endif %}
 
-            {% if speaker.linkedin %}
-            <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            {% endif %}
+              {% if speaker.linkedin %}
+              <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
+                  <i class="fa fa-linkedin"></i>
+              </a>
+              {% endif %}
 
-            <p>{{speaker.bio}}</p>
-        </div>
+              <p>{{speaker.bio}}</p>
+          </div>
+      {% endif %}
     {% endfor %}
 {% endfor %}
     </div>
@@ -102,11 +104,13 @@ event:
 <div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
           {% for speaker in session.speakers %}
+            
             <a href="#{{speaker.id}}" class="smoothScroll">
               <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
           </a>
           <br>
           <h4>{{speaker.name}}</h4>
+            
           {% endfor %}
         </div>
         <div class="col-md-8">
@@ -143,10 +147,10 @@ event:
         <thead>
           <tr>
             <th class="col-time">Schedule</th>
-            <th>Room A</th>
-            <th>Room B</th>
-            <th>Room C</th>
-            <th>Room D</th>
+            <th>Room 302/303</th>
+            <th>Room 304/305</th>
+            <th>Room 306/307</th>
+            <th>Room 308/309</th>
           </tr>
         </thead>
         <tbody>
@@ -172,7 +176,6 @@ event:
               <div class="col-lg-8">
                 <a href="#{{ sessions[session.id].id }}" class="smoothScroll">{{ sessions[session.id].title }}</a>
               </div>
-              TBD 
           </td>
         {% endfor %}
         </tr>
