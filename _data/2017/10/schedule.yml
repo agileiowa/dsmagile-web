@@ -2,7 +2,7 @@
   break: Check-in and Breakfast (Provided)
 
 - time: 9:00 - 9:30  
-  break: Opening - Announcements, Speaker Introductions - Ballroom B
+  break: Opening - Announcements, Speaker Introductions - Ballroom A
 
 - time: 9:30 - 9:45
   break: Break
@@ -24,7 +24,7 @@
       - id: dustin-thostenson
 
 - time: 12:00 - 1:00            
-  break: Lunch - Ballroom B (Provided)
+  break: Lunch - Ballroom A (Provided)
 
 - time: 1:00 - 2:00
   sessions:
