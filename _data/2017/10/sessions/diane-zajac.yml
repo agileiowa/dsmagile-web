@@ -16,9 +16,9 @@ abstract: |
 
 
 speakers:
-    - id: diane-zajac-woodie 
-      name: Diane Zajac-Woodie 
-      image: diane-zajac-woodie.jpg
+    - id: diane-zajac
+      name: Diane Zajac
+      image: diane-zajac.jpg
       twitter: agilesquirrel
       bio: | 
         Several years ago, Diane traded a career in corporate America for a life of coaching and she has never looked back. She now uses her 13 years of experience to help groups, from Fortune 50 companies to the U.S. Government, transform their people into high-performing teams. Drawing from kanban, systems thinking and psychology, Diane teaches teams to practically apply an agile mindset, and in the process, find joy in their work again.
