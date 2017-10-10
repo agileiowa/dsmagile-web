@@ -29,7 +29,7 @@
 	    {% endif %}
 	    {% if page.show-schedule == true %}	    
             <li><a href="#schedule" class="smoothScroll"> Schedule</a></li>
-	    {% endif %}	    
+	    {% endif %}
             <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Past Events<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
@@ -51,6 +51,11 @@
          {% endif %}</a></li>
         </ul>
         {% endif %}
+
+        {% if page.printed-schedule %}
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="{{page.printed-schedule}}" target="_blank" class="btn btn-outline">Schedule (pdf)</a></li></ul>
+        {% endif %}    
         </div><!--/.nav-collapse -->
       </div>
     </div>
