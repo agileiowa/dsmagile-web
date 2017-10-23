@@ -25,6 +25,7 @@ body {
     font-size: 1em;
     line-height: 1.4;
     margin-bottom: 80px;
+    overflow:visible;
 }
 
 .btn-large{
