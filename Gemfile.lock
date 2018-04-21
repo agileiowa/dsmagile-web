@@ -106,3 +106,9 @@ DEPENDENCIES
   jekyll
   rake
   safe_yaml (>= 1.0.4)
+
+RUBY VERSION
+   ruby 2.2.5p319
+
+BUNDLED WITH
+   1.16.1
