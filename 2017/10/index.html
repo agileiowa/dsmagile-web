@@ -1,33 +1,32 @@
 ---
 layout: base
-show-speakers: false
-show-sessions: false
-show-schedule: false
-<!-- printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf -->
-show-soldout: false
+show-speakers: true
+show-sessions: true
+show-schedule: true
+printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf
+show-soldout: true
 event:
-    name: dsmAgile 2018
+    name: dsmAgile
     tagline: Discuss. Discover. Learn.
-    <!-- date: 2017-10-13 -->
-    <!-- time: 8:30 AM to 4:30 PM -->
-    <!-- mailing-list: http://eepurl.com/NOT_USED -->
+    date: 2017-10-13
+    time: 8:30 AM to 4:30 PM
+    mailing-list: http://eepurl.com/NOT_USED
     <!-- eventbriteid: dsmagile-fall-2017-tickets-35978834663 -->
     location:
-        <!-- name: Community Choice Credit Union Convention Center -->
-        <!-- address: 833 5th Ave -->
-        <!-- city: Des Moines -->
-        <!-- state: IA -->
-        <!-- zip: 50309 -->
+        name: Community Choice Credit Union Convention Center
+        address: 833 5th Ave
+        city: Des Moines
+        state: IA
+        zip: 50309
 ---
-{% assign sessions = site.data.2018.10.sessions %}
-{% assign schedule = site.data.2018.10.schedule %}
-
+{% assign sessions = site.data.2017.10.sessions %}
+{% assign schedule = site.data.2017.10.schedule %}
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
     <header class="clearfix">
       <h1>{{page.event.name}}</h1>
       <p>{{page.event.tagline}}</p>
-      <!-- <p>{{page.event.date | date: "%A, %B %-d, %Y" }} from {{page.event.time}}</p> -->
+      <p>{{page.event.date | date: "%A, %B %-d, %Y" }} from {{page.event.time}}</p>
       <div id="" class="vcard location">
         <div class="org">{{page.event.location.name}}</div>
         <div class="adr">
@@ -37,7 +36,7 @@ event:
           <span class="postal-code">{{page.event.location.zip}}</span>
         </div>
       </div>
-      <!-- <p>Open Space and mixer to follow at the venue</p> -->
+      <p>Open Space and mixer to follow at the venue</p>
         {% if page.event.eventbriteid %}
       <a class="btn btn-success btn-large" href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}">
          {% if page.show-soldout == true %}
@@ -53,45 +52,6 @@ event:
       <!--</a>-->
     </header>
   </div>
-
-  <div class="container">
-    <div class="row white centered">
-      <h1>NOMINATE A SPEAKER</h1>
-      <hr>
-      <br>
-      <br>
-      <div id="nominate-form">
-        <form action="https://formspree.io/tgifford@gmail.com" method="POST">
-          <div class="form-group">
-            <label for="submitterEmail">Your email</label>
-            <input type="email" class="form-control" id="submitterEmail" name="_replyto" aria-describedby="emailHelp" placeholder="Enter email" required>
-            <small id="emailHelp" class="form-text text-muted">In case we have questions.</small>
-          </div>
-          <div class="form-group">
-            <label for="submitterName">Your name</label>
-            <input type="text" class="form-control" id="submitterName" name="submitterName" aria-describedby="emailHelp" placeholder="Your name" required>
-          </div>
-          <div class="form-group">
-            <label for="speakersName">Speaker's name</label>
-            <input type="text" class="form-control" id="speakersName" name="speakersName" required>
-          </div>
-          <div class="form-group">
-            <label for="speakersEmail">Speaker's email</label>
-            <input type="email" class="form-control" id="speakersEmail" name="speakersEmail" required>
-          </div>
-          <div class="form-group">
-            <label for="speakerVideo">Video of this speaker (optional)</label>
-            <input type="text" class="form-control" id="speakerVideo" name="speakerVideo" placeholder="Enter a YouTube link of this person presenting" >
-          </div>
-          <div class="form-group form-check">
-            <label for="whyThisSpeaker">Why this speaker?</label>
-            <textarea class="form-control" id="whyThisSpeaker" rows="3" name="whyThisSpeaker" placeholder="Is there a topic you want to hear? Where did you hear about them?"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit Nomination</button>
-        </form>
-      </div>
-    </div>
-  </div>  
 
 {% if page.show-speakers == true %}
 <!-- ==== SPEAKERS ==== -->

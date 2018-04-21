@@ -277,6 +277,12 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+#nominate-form {
+    /* border-width: 2px; */
+    margin-left: 90px;
+    width: 70%;
+    text-align: initial;
+}
 
 
 /* ==========================================================================
