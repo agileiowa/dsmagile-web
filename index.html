@@ -8,16 +8,16 @@ show-soldout: false
 event:
     name: dsmAgile 2018
     tagline: Discuss. Discover. Learn.
-    <!-- date: 2017-10-13 -->
-    <!-- time: 8:30 AM to 4:30 PM -->
+    date: 2018-09-28
+    time: 8:30 AM to 4:30 PM
     <!-- mailing-list: http://eepurl.com/NOT_USED -->
     <!-- eventbriteid: dsmagile-fall-2017-tickets-35978834663 -->
     location:
-        <!-- name: Community Choice Credit Union Convention Center -->
-        <!-- address: 833 5th Ave -->
-        <!-- city: Des Moines -->
-        <!-- state: IA -->
-        <!-- zip: 50309 -->
+        name: Community Choice Credit Union Convention Center
+        address: 833 5th Ave
+        city: Des Moines
+        state: IA
+        zip: 50309
 ---
 {% assign sessions = site.data.2018.10.sessions %}
 {% assign schedule = site.data.2018.10.schedule %}
@@ -27,7 +27,7 @@ event:
     <header class="clearfix">
       <h1>{{page.event.name}}</h1>
       <p>{{page.event.tagline}}</p>
-      <!-- <p>{{page.event.date | date: "%A, %B %-d, %Y" }} from {{page.event.time}}</p> -->
+      <p>{{page.event.date | date: "%A, %B %-d, %Y" }} from {{page.event.time}}</p>
       <div id="" class="vcard location">
         <div class="org">{{page.event.location.name}}</div>
         <div class="adr">
