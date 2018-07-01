@@ -1,5 +1,6 @@
 ---
 layout: base
+show-nominate-speaker: false
 show-speakers: false
 show-sessions: false
 show-schedule: false
@@ -11,7 +12,7 @@ event:
     date: 2018-09-28
     time: 8:30 AM to 4:30 PM
     <!-- mailing-list: http://eepurl.com/NOT_USED -->
-    <!-- eventbriteid: dsmagile-fall-2017-tickets-35978834663 -->
+    eventbriteid: dsmagile-fall-2018-tickets-45895792551
     location:
         name: Community Choice Credit Union Convention Center
         address: 833 5th Ave
@@ -54,6 +55,7 @@ event:
     </header>
   </div>
 
+  {% if page.show-nominate-speaker == true %}
   <div class="container">
     <div class="row white centered">
       <h1>NOMINATE A SPEAKER</h1>
@@ -94,7 +96,8 @@ event:
         </form>
       </div>
     </div>
-  </div>  
+  </div>
+  {% endif %}
 
 {% if page.show-speakers == true %}
 <!-- ==== SPEAKERS ==== -->
