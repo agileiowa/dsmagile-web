@@ -168,14 +168,14 @@ event:
           <td>
               <div class="col-lg-4">
                   {% for speaker in sessions[session.id].speakers %}
-                  <a href="#{{speaker.id}}" class="smoothScroll">
+                  <a data-scroll href="#{{speaker.id}}" class="smoothScroll">
                       <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
                   </a>
                   <h4>{{speaker.name}}</h4>
                   {% endfor %}
               </div>
               <div class="col-lg-8">
-                <a href="#{{ sessions[session.id].id }}" class="smoothScroll">{{ sessions[session.id].title }}</a>
+                <a data-scroll href="#{{ sessions[session.id].id }}" class="smoothScroll">{{ sessions[session.id].title }}</a>
               </div>
           </td>
         {% endfor %}
