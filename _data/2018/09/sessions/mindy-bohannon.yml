@@ -1,16 +1,38 @@
 id: givecamp
-title: "Case Study: Agile & Scrum during GiveCamp"
+title: "Agile and Scrum at the Speed of Light"
 link: 
 abstract: |
-    GiveCamp is the most magical, tiring, and worthwhile 48 hours of my year. In 2015, 200 techies volunteered their talents and passion to help 19 non-profits with projects including data collection, websites, GPS-enabled mobile app, an educational online game, and database applications. How does so much work get done in such little amount of time? Agile at the speed of light– standups every 4 hours, adhoc swarming with heavy hitter devs roaming the projects, and lots of donated food and drinks to keep everyone fortified. This case study reviews how so much work gets done in such a short amount of time using agile principles and scrum ceremonies.
-    <br /><br />
-    Target audience: People new to agile principles and scrum ceremonies
-
+        Cleveland’s GiveCamp is the most magical, tiring, and worthwhile 48 hours anyone will
+        experience professionally. For example, in 2015, 200 techies volunteered their talents and passion to
+        help 19 non-profits with projects including data collection, websites, GPS-enabled mobile app, an
+        educational online game, and database applications. How does so much work get done in such little
+        amount of time? Agile in hyperdrive – standups every 4 hours, adhoc swarming with heavy hitter devs
+        roaming the projects, and lots of free food and drinks to keep everyone fortified.
+        <br/><br/>
+        This case study reviews how so much work gets done in such a short amount of time. Each GiveCamp
+        weekend consists of 48 hours to developer, complete, and hand-off the sites or apps to the nonprofit to
+        be self-sufficient in using and maintaining it thereafter. The organizations are prepped to have a Product
+        Owner on site the entire weekend sitting right there with the techies on the team, ready to make
+        decisions on the spot and keep development moving forward. If something isn’t working – the team can
+        immediately pivot. A lot of intriguing functionality came from asking “it would be great if our site
+        could…”. A scrummaster attends standup every 4 hours, teamwork reigns as everyone maps out the
+        stories to accomplish the goal, and pairing and collaboration amongst everyone is key. It helps that the
+        location, hyped up wifi, office supplies RedBull, coffee, ice cream, and all meals and beverages are
+        donated by local companies to keep the teams going.
+    
 speakers:
     - id: mindy-bohannon
       name: Mindy Bohannon
       image: mindy-bohannon.jpg
-      twitter: 
-      linkedin: 
+      twitter: mindybo93
+      linkedin: mindybohannon
       bio: |
-        After Oracle development and other assorted IT roles, Mindy is at last a Business Solutions Analyst. Her goal is to solve business problems, ensure communication amongst stakeholders and team members, develop solutions that drive the business forward and to relate to others with humanity during the process. And if it has a good soundtrack to do the work by, then all the better. She often says, "Judge me by my questions, not my answers." –Voltaire
+        Why do we do what we do? To what end? After doing database development and other assorted IT
+        roles, Mindy thrives in being working with a team as an Agile Business Analyst for clients and coaching
+        peers on Excella projects. She solves business problems, develops solutions that drive the business
+        forward, and relates to others with humanity, flexibility, trust, and collaboration during the process.
+        Mindy has spoken on analyst and professional development topics at many local and national
+        conferences over the years and encourages others to share their knowledge as well. Let’s ask the
+        questions, learn the why’s, and continue talking about possibilities, options, goals, and what-ifs.
+        <br/><br/>
+        &quot;Judge me by my questions, not my answers.&quot; –Voltaire
