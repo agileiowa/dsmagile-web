@@ -73,12 +73,12 @@ ga('send', 'pageview');
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a href="/" class="smoothScroll">Home</a></li>
+            <li><a data-scroll href="/">Home</a></li>
 	    
-            <li><a href="#speakers" class="smoothScroll"> Speakers</a></li>
+            <li><a data-scroll href="#speakers"> Speakers</a></li>
 	    
 	    
-            <li><a href="#sessions" class="smoothScroll"> Sessions</a></li>
+            <li><a data-scroll href="#sessions"> Sessions</a></li>
 	    
 	    
             <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Past Events<span class="caret"></span>
@@ -899,9 +899,10 @@ Techniques you can use to foster trust on a team
 
 
   <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/assets/js/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="/assets/js/smoothscroll.js"></script>
-  <script type="text/javascript" src="/assets/js/jquery-func.js"></script>
+  <script type="text/javascript" src="/assets/js/smooth-scroll.polyfills.js"></script>
+  <script>
+    var scroll = new SmoothScroll('[data-scroll]');
+  </script>
 
 </body>
 </html>
