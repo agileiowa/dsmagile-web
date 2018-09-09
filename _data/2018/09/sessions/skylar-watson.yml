@@ -1,0 +1,21 @@
+id: metics
+title: Outcome Metrics Lead To Valuable Practices
+abstract: |
+    Whereas output metrics (such as stories completed per week) measure aspects of a team’s localized productivity, outcome metrics (such as how much these features increase customer productivity) measure the difference the teams’ work makes in the world.
+    Focus on output metrics can lead to increased waste and unnecessary stress, and distracts the organization from achieving more valuable outcomes. 
+    In this talk, through stories and group exercises, you’ll see how you can better measure and improve your organization’s effectiveness.
+    <br/><br/>
+    Learning Outcomes
+    <ul>
+    <li>People can tell an outcome metric from an output metric (sparrow deck participation)</li>
+    <li>Connecting the things that we do to the difference they make in the world (by drawing metric chains and then shortcutting them)</li>
+    <li>People stop stressing about things that don’t make a difference (evidence in stories)</li>
+    </ul>
+speakers:
+    - id: skyler-watson
+      name: Skylar Watson
+      image: skyler-watson.jpg
+      twitter: 
+      bio: | 
+        Skylar Watson is a software consultant and owner of SkyNet software solutions where he implements high-value software to satisfy customers needs. Skylar works with companies both domestically and internationally providing assistance in adopting agile software practices.
+        
