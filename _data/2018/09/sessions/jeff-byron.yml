@@ -1,10 +1,12 @@
-id: jeff-byron
-title: 
+id: jeff-byron-refresher
+title: As a Des Moines Agile conference goer, I want to learn some of the basics so that I can apply them properly in my organization.
 abstract: |
+     Whether you're just getting started or would like a refresher because things have gotten stale, this session will take it from the top. We will discuss agile as a mindset, tactics to try, and most importantly, the "why?" behind each one. This session will cover the importance of motivation, the framework of a sprint, and why people keep talking about lean manufacturing in Japan. Questions are welcome throughout and we may just see where the conversation takes us.
+
 speakers:
-    - id: tbd
+    - id: jeff-byron
       name: Jeff Byron
-      image: unknown.jpg
+      image: jeff-byron.jpg
       twitter: 
       bio: | 
-        
+        Jeff Byron leads User Design for Veritas Technologies. Prior to Veritas, Jeff held many different positions in software within Symantec, Target.com, Digital River, and Thomson Reuters. The first time he tried to "do Agile" was at Digital River in 2009 when launching his client's (Microsoft) first web store in Brazil selling Office 2010. Since then, Jeff has led many transformations around "being agile" with teams ranging from 15 to 700. He enjoys sharing what he has learned and continuing to learn himself. 
