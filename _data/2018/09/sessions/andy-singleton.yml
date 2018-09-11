@@ -1,0 +1,13 @@
+id: andy-singleton-session
+title: An architectural approach to web services and continuous delivery
+link: 
+abstract: |
+    The megatrend move to cloud, Web services, and continuous delivery is impacting every agile team. We will start by seeing how Amazon, Google, Microsoft, and Facebook weave these ingredients into a Matrix of Services that has created more than $3T in market value. Their tactics are quite different from the tactics applied in a Scrum-based agile transformation. They use tech leads instead of scrum masters, product managers and outcome metrics instead of product owners. Each team and service can support a matrix of different products, avoiding the silos of SAFE programs. We’ll look at basic continuous delivery tactics, and see how tools have a bigger impact than teamwork, and how they work better at large scale. We can wrap up the session with testimonials from people who are working in the new model, and have a debate on the role of teamwork in this mechanical system. Everyone should leave the session with some new ideas to try.
+speakers:
+    - id: andy-singleton
+      name: Andy Singleton
+      image: andy-singleton.jpg
+      twitter: 
+      linkedin: 
+      bio: |
+        How can we improve our society through innovation? How can big companies innovate at a scale that will have impact? Andy has approached these questions from many angles during a career as a programmer, software company founder, and author. He built his first computer from chips. He was employee number 2 at Wall Street research shop SNL Financial, founder of ebusiness consultancy Cambridge Interactive, founder of enterprise software company PowerSteering, and founder of SaaS company Assembla. While at Assembla he supported more than 20,000 distributed agile software teams and studied continuous delivery process. He describes the software innovation engine that has allowed companies like Amazon and Google to dominate capitalism as MAXOS – MAtriX Of Services. He is the author of “A Guide to the New Continuous Agile” and is currently under agreement to write a book on the economics of innovation, “The Flood: Decoding the New Economic Order.”
