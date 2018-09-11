@@ -1,8 +1,14 @@
 id: nate-adams-session
-title: Convincing people Agile doesn't suck - Demystifying and demythifying the Agile mindset
+title: Techniques to Explain Agile Mindset and Practices to your Grandmother, Your Five-Year-Old or Your Boss
 link: 
 abstract: |
-
+    A couple decades ago, when I started my life as a software developer, my grandma often tried to understand what it was that I did for a living so she could dote on me to her friends (as good Grandmothers are wont to do). Unfortunately, there were some big gaps in our shared context that made it hard for her to truly grasp how I spent my time on an average day. As I've started to spend less time writing code, and more time coaching and training teams in Agile practices and methodologies, I've found that my inability to explain what I do for a living has grown from effecting elderly relatives to just people in general. Interestingly, even as I speak to people who should understand, it often feels that we're speaking different languages or about completely different topics. Even when we use the same words, we're often not actually talking about the same thing.
+    <br/><br/>
+    This talk is about building bridges over gaps in our shared understanding. There are a lot of misrepresentations of Agile out in the wild today, and a lot of them in some pretty visible places. Let's clear these away and start fresh. More importantly, let's start simple, and talk about Agile concepts in ways that your grandmother, your kindergartner or even your boss can understand.
+    <br/><br/>
+    We'll cover some really simple, fun and engaging ways to talk about what this Agile thing is (and what it isn't). We'll talk about some myths and misconceptions that are out there and how to address them when we encounter them. We'll discuss how to talk about Agile concepts (even some complex ones) in the language the leaders of our businesses speak and understand so we can ensure that we're reaching a shared understanding while convincing them that these concepts are vital to success in today's successful industries. Most importantly, we'll have some fun while doing it.
+    <br/><br/>
+    With a little practice, you'll have them begging you to implement more! 
 speakers:
     - id: nate-adams
       name: Nate Adams
@@ -10,9 +16,7 @@ speakers:
       twitter: psiberknetic
       linkedin: psiberknetic
       bio: | 
-        Nate has worked professionally in the IT industry for nearly 20 years developing software and mentoring and leading teams in a wide range of environments from small companies with dozens of employees to large global enterprises with over 20,000 employees. Nate currently brings this experience with him to NewBoCo in Cedar Rapids as he helps with their mission to make the Iowa Corridor an awesome place to work in tech.
+        Nate has worked professionally in the IT industry for nearly 20 years developing software and mentoring and leading teams in a wide range of environments from small companies with dozens of employees to large global enterprises. As a full-stack software developer, Nate has written code and developed architecture from the UI through the middleware and to the back-end. As an Agile trainer and coach, Nate has developed and coached Agile teams in many industries using a broad array of practices and methodologies.
         <br/><br/>
-        As a software developer, Nate has written code and developed architecture for all aspects of systems from the UI through the middleware and to the back-end. Nate has also given many talks for user groups in the midwest on a broad range of technology topics.
-        <br/><br/>
-        As an agile enthusiast and coach, Nate has developed and coached agile teams using a broad array of methodologies.  Nate has taught the Intro to Agile course at the University of Iowa Tippie College of Business as well as an agile certificate through Kirkwood Community College.
+        Nate is especially passionate about helping teams continuously improve how they do work. To this end, Nate acts as an advocate for both team members as well as stakeholders; striving to make work less stressful by pushing for a sustainable pace while establishing processes and methodologies that emphasize quality.        
           
