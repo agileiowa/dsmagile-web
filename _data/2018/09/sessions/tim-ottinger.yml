@@ -1,7 +1,14 @@
 id: tim-ottinger-session
-title:
+title: Always Be Learning and Experimenting
 abstract: | 
-    
+    George Dinwiddie once said that the biggest problem he sees in software teams is that people do not have enough time to learn. Knowledge workers who stop learning produce sub-optimal results and remain unproductive and frustrated. In this hour-long talk, Tim will 
+
+    <ul>
+    <li>help people understand the systems of learning-stop</li>
+    <li>see how teams are building learning into their work</li>
+    <li>learn a workable system for focused learning</li>
+    <li>find resources to help teams learn and improve constantly.</li>
+    </ul>
 speakers:
     - id: tim-ottinger
       name: Tim Ottinger
