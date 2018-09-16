@@ -5,7 +5,8 @@
   break: Opening - Announcements, Speaker Introductions - Ballroom
 
 - time: 9:45 - 10:45
-  break: Keynote - Ballroom
+  keynote: brandon-carlson
+  room: Ballroom
             
 - time: 10:45 - 11:00
   break: Break

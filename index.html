@@ -207,6 +207,25 @@ event:
             <td class="col-time">{{ slot.time }}</td>
             <td colspan="4">{{ slot.break }}</td>
         </tr>
+    {% elsif slot.keynote %}
+        <tr class="col-all">
+          <td class="col-time">{{ slot.time }}</td>
+          <td colspan="4">
+            <div class="col-lg-12">
+              
+              {% for speaker in sessions[slot.keynote].speakers %}
+              <a href="#{{speaker.id}}" class="smoothScroll">
+                  <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+              </a>
+              <h4>{{speaker.name}}</h4>
+              {% endfor %}
+          </div>
+          <div class="col-lg-12">
+            <a href="#{{ sessions[slot.keynote].id }}" class="smoothScroll">{{ sessions[slot.keynote].title }}</a>
+          </div>
+          <div class="col-lg-12">{{ slot.room }}</div>
+          </td>
+        </tr>    
     {% else %}
         <tr>
             <td class="col-time">{{ slot.time }}</td>
