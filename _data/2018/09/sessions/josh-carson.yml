@@ -1,6 +1,13 @@
 id: josh-carson-session
-title: 
+title: (Technical) Demoes That Don't Suck
 abstract: |
+    One of the key parts of successful agile development is making sure that feedback loops are setup. An extremely common practice is to establish demos to make sure teams can show progress and can guide on where to go next.
+    <br/><br/>
+    Demos, when done poorly, do not help teams improve. They become expensive status updates. They become a means to show untested code disguised as production quality experiences. They become a means to guilt and shame teams stuck with a difficult problem.
+    <br/><br/>
+    Two years ago, I did a presentation called Demos That Don't Suck. I recommended against giving technical demos. Many people are in environments where that is not possible.
+    <br/><br/>
+    This talk will go over what I have learned over the years of giving demos. This talk id for those of you having to get feedback on features like non-functional improvements, technical products like APIs and SDKs, or migration projects where you need to successfully show you did nothing to the customer experience.
 speakers:
     - id: josh-carson
       name: Josh Carson
