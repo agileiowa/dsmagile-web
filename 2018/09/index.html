@@ -1,16 +1,18 @@
 ---
 layout: base
+show-nominate-speaker: false
 show-speakers: true
 show-sessions: true
 show-schedule: true
+<!-- printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf -->
 show-soldout: true
 event:
-    name: dsmAgile 2016
+    name: dsmAgile 2018
     tagline: Discuss. Discover. Learn.
-    date: 2016-09-09
+    date: 2018-09-28
     time: 8:30 AM to 4:30 PM
-    mailing-list: http://eepurl.com/NOT_USED
-    <!--eventbriteid: dsmagile-fall-2016-tickets-25487647239-->
+    <!-- mailing-list: http://eepurl.com/NOT_USED -->
+    eventbriteid: dsmagile-fall-2018-tickets-45895792551
     location:
         name: Community Choice Credit Union Convention Center
         address: 833 5th Ave
@@ -18,8 +20,9 @@ event:
         state: IA
         zip: 50309
 ---
-{% assign sessions = site.data.2016.09.sessions %}
-{% assign schedule = site.data.2016.09.schedule %}
+{% assign sessions = site.data.2018.09.sessions %}
+{% assign schedule = site.data.2018.09.schedule %}
+
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
     <header class="clearfix">
@@ -35,7 +38,7 @@ event:
           <span class="postal-code">{{page.event.location.zip}}</span>
         </div>
       </div>
-      <p>Open Space and mixer to follow at the venue</p>
+      <!-- <p>Open Space and mixer to follow at the venue</p> -->
         {% if page.event.eventbriteid %}
       <a class="btn btn-success btn-large" href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}">
          {% if page.show-soldout == true %}
@@ -52,6 +55,50 @@ event:
     </header>
   </div>
 
+  {% if page.show-nominate-speaker == true %}
+  <div class="container">
+    <div class="row white centered">
+      <h1>NOMINATE A SPEAKER</h1>
+      <hr>
+      <br>
+      <br>
+      <div id="nominate-form">
+          <p>One of the keys to the success of past dsmAgile events (aside from the great attendees) are the experienced and insightful people we’ve invited to share their knowledge and experiences. As we plan for the 2018 version of dsmAgile, we’d like to widen the circle and find new voices to share their experiences and ideas.</p>
+          <p>We’re looking for people who have some practical experiences to share and are skilled at sharing those ideas.  If you know someone that fits that bill, please let us know.  The more you can let us know about the person you're nominating, including a sample of them speaking, the better.</p>
+          <p>We’ll consider every nomination we receive, and reserve final decision on who to invite to speak.</p>
+        <form action="https://formspree.io/dsmagile@agileiowa.org" method="POST">
+          <div class="form-group">
+            <label for="submitterEmail">Your email</label>
+            <input type="email" class="form-control" id="submitterEmail" name="_replyto" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <small id="emailHelp" class="form-text text-muted">In case we have questions.</small>
+          </div>
+          <div class="form-group">
+            <label for="submitterName">Your name</label>
+            <input type="text" class="form-control" id="submitterName" name="submitterName" aria-describedby="emailHelp" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="speakersName">Speaker's name</label>
+            <input type="text" class="form-control" id="speakersName" name="speakersName" required>
+          </div>
+          <div class="form-group">
+            <label for="speakersEmail">Speaker's email</label>
+            <input type="email" class="form-control" id="speakersEmail" name="speakersEmail" required>
+          </div>
+          <div class="form-group">
+            <label for="speakerVideo">Video of this speaker (optional)</label>
+            <input type="text" class="form-control" id="speakerVideo" name="speakerVideo" placeholder="Enter a YouTube link of this person presenting" >
+          </div>
+          <div class="form-group form-check">
+            <label for="whyThisSpeaker">Why this speaker?</label>
+            <textarea class="form-control" id="whyThisSpeaker" rows="3" name="whyThisSpeaker" placeholder="Is there a topic you want to hear? Where did you hear about them?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Nomination</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
 {% if page.show-speakers == true %}
 <!-- ==== SPEAKERS ==== -->
   <div class="container" id="speakers" name="speakers">
@@ -64,24 +111,26 @@ event:
 {% for session_hash in sessions %}
     {% assign session = session_hash[1] %}
     {% for speaker in session.speakers %}
-    <div class="col-md-6 centered" id="{{speaker.id}}">
-            <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
-            <br>
-            <h4><b>{{speaker.name}}</b></h4>
-            {% if speaker.twitter %}
-            <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
-              <i class="fa fa-twitter"></i>
-            </a>
-            {% endif %}
+      {% if speaker.id != "tbd"%}
+        <div class="col-md-6 centered" id="{{speaker.id}}">
+              <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
+              <br>
+              <h4><b>{{speaker.name}}</b></h4>
+              {% if speaker.twitter %}
+              <a class="btn btn-xs btn-social-icon btn-twitter" href="https://twitter.com/{{speaker.twitter}}">
+                <i class="fa fa-twitter"></i>
+              </a>
+              {% endif %}
 
-            {% if speaker.linkedin %}
-            <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            {% endif %}
+              {% if speaker.linkedin %}
+              <a class="btn btn-xs btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/{{speaker.linkedin}}">
+                  <i class="fa fa-linkedin"></i>
+              </a>
+              {% endif %}
 
-            <p>{{speaker.bio}}</p>
-        </div>
+              <p>{{speaker.bio}}</p>
+          </div>
+      {% endif %}
     {% endfor %}
 {% endfor %}
     </div>
@@ -102,11 +151,13 @@ event:
 <div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
           {% for speaker in session.speakers %}
+            
             <a href="#{{speaker.id}}" class="smoothScroll">
               <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
           </a>
           <br>
           <h4>{{speaker.name}}</h4>
+            
           {% endfor %}
         </div>
         <div class="col-md-8">
@@ -156,6 +207,25 @@ event:
             <td class="col-time">{{ slot.time }}</td>
             <td colspan="4">{{ slot.break }}</td>
         </tr>
+    {% elsif slot.keynote %}
+        <tr class="col-all">
+          <td class="col-time">{{ slot.time }}</td>
+          <td colspan="4">
+            <div class="col-lg-12">
+              
+              {% for speaker in sessions[slot.keynote].speakers %}
+              <a href="#{{speaker.id}}" class="smoothScroll">
+                  <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+              </a>
+              <h4>{{speaker.name}}</h4>
+              {% endfor %}
+          </div>
+          <div class="col-lg-12">
+            <a href="#{{ sessions[slot.keynote].id }}" class="smoothScroll">{{ sessions[slot.keynote].title }}</a>
+          </div>
+          <div class="col-lg-12">{{ slot.room }}</div>
+          </td>
+        </tr>    
     {% else %}
         <tr>
             <td class="col-time">{{ slot.time }}</td>
@@ -172,7 +242,6 @@ event:
               <div class="col-lg-8">
                 <a href="#{{ sessions[session.id].id }}" class="smoothScroll">{{ sessions[session.id].title }}</a>
               </div>
-              
           </td>
         {% endfor %}
         </tr>
