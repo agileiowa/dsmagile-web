@@ -1,8 +1,8 @@
 ---
 layout: base
 show-nominate-speaker: false
-show-speakers: false
-show-sessions: false
+show-speakers: true
+show-sessions: true
 show-schedule: false
 <!-- printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf -->
 show-soldout: false
@@ -20,8 +20,9 @@ event:
         state: IA
         zip: 50309
 ---
-{% assign sessions = site.data.2019.10.sessions %}
-{% assign schedule = site.data.2019.10.schedule %}
+<!-- Liquid has a problem with data files that start with numbers. -->
+{% assign sessions = site.data.y2019.october.sessions %}
+{% assign schedule = site.data.y2019.october.schedule %}
 
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
