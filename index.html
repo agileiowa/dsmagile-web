@@ -109,17 +109,6 @@ event:
       <h1 class="centered">SPEAKERS</h1>
       <hr>
       <br>
-      <pre>
-        site: {{ site | jsonify | escape }}
-        page: {{ page | jsonify | escape }}
-        layout: {{ layout | jsonify | escape }}
-        content: {{ content | jsonify | escape }}
-        paginator: {{ paginator | jsonify | escape }}
-        sessions: {{ sessions | jsonify | escape }}
-        speakers: {{speakers_new | jsonify | escape }}
-        Linda Rising: {{ speakers_new["linda-rising"] | jsonify | escape }}
-        Vanathy Session: {{ sessions["vanathy-lakshmi-agility-walmart"].title | jsonify | escape }}
-    </pre>
       <br>
 <!-- Loops thru each of the files  -->
 {% for speaker_hash in speakers_new %}
@@ -161,12 +150,12 @@ event:
 <div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
           {% for speaker in session.speakers %}
-            
+            {% assign current_speaker = speakers_new[speaker.id]%}
             <a href="#{{speaker.id}}" class="smoothScroll">
-              <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+              <img class="img img-circle" src="/assets/img/speakers/{{current_speaker.image}}" height="60px" width="60px" alt="">
           </a>
           <br>
-          <h4>{{speaker.name}}</h4>
+          <h4>{{current_speaker.name}}</h4>
             
           {% endfor %}
         </div>

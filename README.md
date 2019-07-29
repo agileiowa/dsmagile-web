@@ -42,3 +42,16 @@ update your submodule.
 
 Run this command from the root directory: `git submodule update _site/`
 
+## Tips for debugging
+Show collections by jsonify and escaping them within a `<pre>` tag.
+```
+     <pre>
+        site: {{ site | jsonify | escape }}
+        page: {{ page | jsonify | escape }}
+        layout: {{ layout | jsonify | escape }}
+        content: {{ content | jsonify | escape }}
+        paginator: {{ paginator | jsonify | escape }}
+        sessions: {{ sessions | jsonify | escape }}
+        speakers: {{speakers_new | jsonify | escape }}
+    </pre>
+```
