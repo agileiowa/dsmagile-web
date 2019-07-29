@@ -23,6 +23,7 @@ event:
 <!-- Liquid has a problem with data files that start with numbers. -->
 {% assign sessions = site.data.y2019.october.sessions %}
 {% assign schedule = site.data.y2019.october.schedule %}
+{% assign speakers_new = site.data.y2019.october.speakers %}
 
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
@@ -108,11 +109,22 @@ event:
       <h1 class="centered">SPEAKERS</h1>
       <hr>
       <br>
+      <pre>
+        site: {{ site | jsonify | escape }}
+        page: {{ page | jsonify | escape }}
+        layout: {{ layout | jsonify | escape }}
+        content: {{ content | jsonify | escape }}
+        paginator: {{ paginator | jsonify | escape }}
+        sessions: {{ sessions | jsonify | escape }}
+        speakers: {{speakers_new | jsonify | escape }}
+        Linda Rising: {{ speakers_new["linda-rising"] | jsonify | escape }}
+        Vanathy Session: {{ sessions["vanathy-lakshmi-agility-walmart"].title | jsonify | escape }}
+    </pre>
       <br>
-{% for session_hash in sessions %}
-    {% assign session = session_hash[1] %}
-    {% for speaker in session.speakers %}
-      {% if speaker.id != "tbd"%}
+<!-- Loops thru each of the files  -->
+{% for speaker_hash in speakers_new %}
+    <!-- Gets the value of the file -->
+    {% assign speaker = speaker_hash[1] %}
         <div class="col-md-6 centered" id="{{speaker.id}}">
               <img class="img img-circle img-md" src="/assets/img/speakers/{{speaker.image}}" alt="">
               <br>
@@ -128,11 +140,8 @@ event:
                   <i class="fa fa-linkedin"></i>
               </a>
               {% endif %}
-
               <p>{{speaker.bio}}</p>
           </div>
-      {% endif %}
-    {% endfor %}
 {% endfor %}
     </div>
   </div>
