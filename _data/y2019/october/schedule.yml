@@ -13,30 +13,30 @@
 
 - time: 11:00 - 12:00
   sessions:
-      - id: barry-forrest
-      - id: gianfranco-berardi
-      - id: jeff-byron
-      - id: kent-mcdonald
+      - id: vanathy-lakshmi-agility-walmart
+      - id: kupe-small-talk
+      - id: michael-feathers-friction
+      - id: julie-urban-let-go
 
 - time: 12:00 - 1:00            
   break: Lunch - Ballroom (Provided)
 
 - time: 1:00 - 2:00
   sessions:
-      - id: tim-ottinger
-      - id: josh-carson
-      - id: mindy-bohannon
-      - id: skylar-watson
+      - id: nivai-henry-snake-oil
+      - id: heidi-helfand-reteaming
+      - id: jared-mcmurray-product
+      - id: ray-arell-key-to-agility
 
 - time: 2:00 - 2:15
   break: Break
        
 - time: 2:15 - 3:15
   sessions:
-      - id: allison-pollard
-      - id: andy-singleton
-      - id: nate-adams
-      - id: andy-van-fleet
+      - id: julie-urban-kiss-framework
+      - id: brandon-carlson-tbd
+      - id: maggie-iglesias-pena-ux-agile
+      - id: 
 
 - time: 3:15 - 5:00
   break: |

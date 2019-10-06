@@ -3,9 +3,9 @@ layout: base
 show-nominate-speaker: false
 show-speakers: true
 show-sessions: true
-show-schedule: false
+show-schedule: true
 <!-- printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf -->
-show-soldout: false
+show-soldout: true
 event:
     name: "dsmAgile 2019"
     tagline: Discuss. Discover. Learn.
@@ -23,7 +23,7 @@ event:
 <!-- Liquid has a problem with data files that start with numbers. -->
 {% assign sessions = site.data.y2019.october.sessions %}
 {% assign schedule = site.data.y2019.october.schedule %}
-{% assign speakers_new = site.data.y2019.october.speakers %}
+{% assign speakers = site.data.y2019.october.speakers %}
 
   <!-- ==== HEADERWRAP ==== -->
   <div id="headerwrap" id="home" name="home">
@@ -111,7 +111,7 @@ event:
       <br>
       <br>
 <!-- Loops thru each of the files  -->
-{% for speaker_hash in speakers_new %}
+{% for speaker_hash in speakers %}
     <!-- Gets the value of the file -->
     {% assign speaker = speaker_hash[1] %}
         <div class="col-md-6 centered" id="{{speaker.id}}">
@@ -150,7 +150,7 @@ event:
 <div class="col-md-6 centered" id="{{session.id}}">
         <div class="col-md-4">
           {% for speaker in session.speakers %}
-            {% assign current_speaker = speakers_new[speaker.id]%}
+            {% assign current_speaker = speakers[speaker.id]%}
             <a href="#{{speaker.id}}" class="smoothScroll">
               <img class="img img-circle" src="/assets/img/speakers/{{current_speaker.image}}" height="60px" width="60px" alt="">
           </a>
@@ -213,10 +213,11 @@ event:
             <div class="col-lg-12">
               
               {% for speaker in sessions[slot.keynote].speakers %}
-              <a href="#{{speaker.id}}" class="smoothScroll">
-                  <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+              {% assign speaker_info = speakers[speaker.id] %}
+              <a href="#{{speaker_info.id}}" class="smoothScroll">
+                  <img class="img img-circle" src="/assets/img/speakers/{{speaker_info.image}}" height="60px" width="60px" alt="">
               </a>
-              <h4>{{speaker.name}}</h4>
+              <h4>{{speaker_info.name}}</h4>
               {% endfor %}
           </div>
           <div class="col-lg-12">
@@ -232,10 +233,11 @@ event:
           <td>
               <div class="col-lg-4">
                   {% for speaker in sessions[session.id].speakers %}
-                  <a href="#{{speaker.id}}" class="smoothScroll">
-                      <img class="img img-circle" src="/assets/img/speakers/{{speaker.image}}" height="60px" width="60px" alt="">
+                  {% assign speaker_info = speakers[speaker.id] %}
+                  <a href="#{{speaker_info.id}}" class="smoothScroll">
+                      <img class="img img-circle" src="/assets/img/speakers/{{speaker_info.image}}" height="60px" width="60px" alt="">
                   </a>
-                  <h4>{{speaker.name}}</h4>
+                  <h4>{{speaker_info.name}}</h4>
                   {% endfor %}
               </div>
               <div class="col-lg-8">
