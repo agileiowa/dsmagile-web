@@ -42,6 +42,15 @@ update your submodule.
 
 Run this command from the root directory: `git submodule update _site/`
 
+### Issue: Upgrade Ruby
+*** Pre-condition:*** You are using `rbenv`
+
+- Update the version for the project in `.ruby-version`
+- See list of available Ruby distributions: `rbenv install -l`
+- Install the version of Ruby you need (e.g. 2.3.7): `rbenv install 2.3.7`
+- Install Bundler: `gem install bundler`
+- Update gems: `bundle install`
+
 ## Tips for debugging
 Show collections by jsonify and escaping them within a `<pre>` tag.
 ```
@@ -55,3 +64,4 @@ Show collections by jsonify and escaping them within a `<pre>` tag.
         speakers: {{speakers_new | jsonify | escape }}
     </pre>
 ```
+
