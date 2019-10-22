@@ -1,4 +1,6 @@
 <!--Soldout Banner-->
+{% if page.print-schedule == false %}
+
 {% if page.show-soldout == true %}
 <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
@@ -62,3 +64,4 @@
       </div>
     </div>
   </div>
+{% endif %} <!-- print-schedule --> 

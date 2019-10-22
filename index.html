@@ -1,11 +1,14 @@
 ---
 layout: base
 show-nominate-speaker: false
-show-speakers: true
-show-sessions: true
+show-speakers: false
+show-sessions: false
 show-schedule: true
-<!-- printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf -->
+# printed-schedule: assets/presentations/2017/dsmAgile2017ScheduleHandout.pdf
 show-soldout: true
+
+# Use to only show the schedule for printing
+print-schedule: true 
 event:
     name: "dsmAgile 2019"
     tagline: Discuss. Discover. Learn.
@@ -26,6 +29,7 @@ event:
 {% assign speakers = site.data.y2019.october.speakers %}
 
   <!-- ==== HEADERWRAP ==== -->
+  {% if page.print-schedule == false %}
   <div id="headerwrap" id="home" name="home">
     <header class="clearfix">
       <h1>{{page.event.name}}</h1>
@@ -180,6 +184,9 @@ event:
       <p>&nbsp;</p>
     </div>
   </section>
+{% endif %}
+
+<!-- print-schedule -->
 {% endif %}
 
 {% if page.show-schedule == true %}
