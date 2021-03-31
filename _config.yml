@@ -11,4 +11,6 @@ github_username:  agileiowa
 markdown: kramdown
 permalink: pretty
 
-exclude: [node_modules, bower_components, vendor]
+exclude: 
+ - ./vendor
+ - vendor
