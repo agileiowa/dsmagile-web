@@ -9,3 +9,4 @@ gem "jekyll", ">=4.2.0"
 gem 'rake'
 gem 'safe_yaml', '>=1.0.4' # updated to support ruby 2.2
 gem 'html-proofer'
+gem "webrick"
