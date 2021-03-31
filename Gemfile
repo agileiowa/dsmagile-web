@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.7'
+ruby '2.7.1'
 
 gem "nokogiri", ">= 1.10.4"
 gem "yajl-ruby", ">= 1.3.1"

@@ -3,9 +3,9 @@
 
 {% if page.show-soldout == true %}
 <div class="github-fork-ribbon-wrapper left">
-    <div class="github-fork-ribbon">
-        <a href="#">Sold Out!</a>
-    </div>
+  <div class="github-fork-ribbon">
+    <a href="#">Sold Out!</a>
+  </div>
 </div>
 {% endif %}
 
@@ -18,50 +18,56 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon icon-menu" style="font-size:30px; color:#3498db;"></span>
         </button>
-        <a class="navbar-brand hidden-xs hidden-sm hidden-md hidden-lg" href="#home"><span class="icon icon-menu" style="font-size:18px; color:#3498db;"></span></a>
+        <a class="navbar-brand hidden-xs hidden-sm hidden-md hidden-lg" href="#home"><span class="icon icon-menu"
+            style="font-size:18px; color:#3498db;"></span></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li><a data-scroll href="/">Home</a></li>
-	    {% if page.show-speakers == true %}
-            <li><a data-scroll href="#speakers"> Speakers</a></li>
-	    {% endif %}
-	    {% if page.show-sessions == true %}
-            <li><a data-scroll href="#sessions"> Sessions</a></li>
-	    {% endif %}
-	    {% if page.show-schedule == true %}	    
-            <li><a data-scroll href="#schedule"> Schedule</a></li>
-	    {% endif %}
-            <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Past Events<span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a href="/2018/09"> Fall 2018</a></li>
-                    <li><a href="/2017/10"> Fall 2017</a></li>
-                    <li><a href="/2016/09"> Fall 2016</a></li>
-                    <li><a href="/2015/09"> Fall 2015</a></li>
-                    <li><a href="/2015/04"> Spring 2015</a></li>
-                    <li><a href="/2014/09"> Fall 2014</a></li>
-                </ul>
-            </li>
+          <li><a data-scroll href="/">Home</a></li>
+          {% if page.show-speakers == true %}
+          <li><a data-scroll href="#speakers"> Speakers</a></li>
+          {% endif %}
+          {% if page.show-sessions == true %}
+          <li><a data-scroll href="#sessions"> Sessions</a></li>
+          {% endif %}
+          {% if page.show-schedule == true %}
+          <li><a data-scroll href="#schedule"> Schedule</a></li>
+          {% endif %}
+          <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false"> Past Events<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="/2018/09"> Fall 2019</a></li>
+              <li><a href="/2018/09"> Fall 2018</a></li>
+              <li><a href="/2017/10"> Fall 2017</a></li>
+              <li><a href="/2016/09"> Fall 2016</a></li>
+              <li><a href="/2015/09"> Fall 2015</a></li>
+              <li><a href="/2015/04"> Spring 2015</a></li>
+              <li><a href="/2014/09"> Fall 2014</a></li>
+            </ul>
+          </li>
 
         </ul>
         {% if page.event.eventbriteid %}
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}" class="btn btn-outline">
-         {% if page.show-soldout == true %}
-            Waitlist
-         {% else %}
-            Register
-         {% endif %}</a></li>
+          <li><a href="https://www.eventbrite.com/e/{{page.event.eventbriteid}}" class="btn btn-outline">
+              {% if page.show-soldout == true %}
+              Waitlist
+              {% else %}
+              Register
+              {% endif %}</a></li>
         </ul>
         {% endif %}
 
         {% if page.printed-schedule %}
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="{{page.printed-schedule}}" target="_blank" class="btn btn-outline">Schedule (pdf)</a></li></ul>
-        {% endif %}    
-        </div><!--/.nav-collapse -->
+          <li><a href="{{page.printed-schedule}}" target="_blank" class="btn btn-outline">Schedule (pdf)</a></li>
+        </ul>
+        {% endif %}
       </div>
+      <!--/.nav-collapse -->
     </div>
   </div>
-{% endif %} <!-- print-schedule --> 
+</div>
+{% endif %}
+<!-- print-schedule -->

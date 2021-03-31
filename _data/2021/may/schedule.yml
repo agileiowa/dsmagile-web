@@ -1,0 +1,43 @@
+- time: 8:00 - 9:00
+  break: Check-in and Breakfast (Provided)
+
+- time: 9:00 - 9:45  
+  break: Opening - Announcements, Speaker Introductions - Ballroom
+
+- time: 9:45 - 10:45
+  keynote: linda-rising-agile-mindset
+  room: Ballroom
+            
+- time: 10:45 - 11:00
+  break: Break
+
+- time: 11:00 - 12:00
+  sessions:
+      - id: vanathy-lakshmi-agility-walmart
+      - id: kupe-small-talk
+      - id: michael-feathers-friction
+      - id: julie-urban-let-go
+
+- time: 12:00 - 1:00            
+  break: Lunch - Ballroom (Provided)
+
+- time: 1:00 - 2:00
+  sessions:
+      - id: nivai-henry-snake-oil
+      - id: heidi-helfand-reteaming
+      - id: jared-mcmurray-product
+      - id: ray-arell-key-to-agility
+
+- time: 2:00 - 2:15
+  break: Break
+       
+- time: 2:15 - 3:15
+  sessions:
+      - id: julie-urban-kiss-framework
+      - id: brandon-carlson-tbd
+      - id: maggie-iglesias-pena-ux-agile
+      - id: greg-jensen-csuite
+
+- time: 3:15 - 5:00
+  break: |
+      Networking, Drinks and Tapas - Ballroom
